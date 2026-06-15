@@ -11,6 +11,8 @@
     "dev": "node --watch index.js",
     "start": "node index.js",
     "seed": "node seed/seed.js",
+    "reseed": "node seed/reseed.js",
+    "migrate-plan": "node seed/migratePlanV2.js",
     "migrate": "node seed/migrateIndexes.js"
   },
   "dependencies": {

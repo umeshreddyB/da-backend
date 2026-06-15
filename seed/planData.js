@@ -1,15 +1,24 @@
 export const PLAN = [
-// ═══ PHASE 1: Foundations (Weeks 1-3) ═══
-{w:1,phase:1,title:'How the Internet Works',note:'Do not skip this week even if you know some networking. Gaps here hurt you in every future topic.',days:[
+// ═══ PHASE 1: Foundations (Weeks 1-4) ═══
+{w:1,phase:1,title:'Operating Systems Foundations',note:'Complete this OS foundation week before system design. Week 2 continues with networking, client-server architecture, and the rest of the study plan. Duration: 15 June – 20 June 2026.',days:[
+  {lbl:'Mon',topic:'Introduction to Operating Systems',tasks:['What is an Operating System?','Why do we need an OS?','Functions of an OS','Components of an OS','User Mode vs Kernel Mode','System Calls','Interrupts and Traps','Understand the purpose of an OS','Learn the responsibilities of the kernel','Study User Mode and Kernel Mode','Learn what system calls are','Watch a lecture on OS Introduction']},
+  {lbl:'Tue',topic:'Processes and Process Management',tasks:['Program vs Process','Process States','Process State Diagram','Process Control Block (PCB)','What is Context Switching?','Why Context Switching is expensive','Long-Term Scheduler','Short-Term Scheduler','Medium-Term Scheduler','Understand process lifecycle','Learn PCB structure','Study context switching','Understand the three schedulers','Revise process states']},
+  {lbl:'Wed',topic:'Threads and CPU Scheduling',tasks:['What is a Thread?','Process vs Thread','User-Level Threads','Kernel-Level Threads','Multithreading','FCFS scheduling','SJF and SRTF','Priority Scheduling','Round Robin','Waiting Time, Turnaround Time, Response Time, Throughput','Understand threads','Compare process and thread','Learn all scheduling algorithms','Understand scheduling metrics','Solve one example of Round Robin']},
+  {lbl:'Thu',topic:'Concurrency and Synchronization',tasks:['Sequential, Concurrent, and Parallel Execution','Critical Section Problem','Race Conditions','Mutex','Binary Semaphore','Counting Semaphore','Spinlock','Monitor','Producer Consumer Problem','Readers Writers Problem','Dining Philosophers Problem','Understand concurrency and parallelism','Learn race conditions','Study mutex and semaphore','Understand producer-consumer problem','Revise synchronization concepts']},
+  {lbl:'Fri',topic:'Deadlocks and Memory Management',tasks:['What is Deadlock?','Resource Allocation Graph','Coffman\'s Four Conditions: Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait','Deadlock Prevention, Avoidance, Detection, Recovery','Logical Address vs Physical Address','Stack Memory vs Heap Memory','Paging and Virtual Memory','Page Faults','Blocking I/O vs Non-Blocking I/O','Synchronous I/O vs Asynchronous I/O','Understand deadlocks','Learn Coffman\'s conditions','Study stack vs heap','Learn paging and virtual memory','Understand blocking and non-blocking I/O']},
+  {lbl:'Sat',topic:'Interprocess Communication and File Systems',practice:true,tasks:['Shared Memory','Pipes','Message Queues','Sockets','Files and Directories','File Attributes and Access Methods','Disk Scheduling: FCFS, SSTF, SCAN, C-SCAN','Learn IPC mechanisms','Understand sockets','Study file systems','Learn disk scheduling basics','Revise the entire week\'s OS concepts']},
+]},
+
+{w:2,phase:1,title:'How the Internet Works',note:'Do not skip this week even if you know some networking. Gaps here hurt you in every future topic.',days:[
   {lbl:'Mon',topic:'Client-server model & the internet',tasks:['Client-server model: what is a request and response','IP addresses, ports, and what they mean','How data travels: packets, routers, switches','Watch: CS75 Harvard Lecture 0 (first 30 min)']},
   {lbl:'Tue',topic:'HTTP & HTTPS deep dive',tasks:['HTTP methods: GET, POST, PUT, PATCH, DELETE','Request/response structure: headers, body, status codes','How HTTPS works: TLS handshake in plain English','Practice: use browser DevTools → Network tab, inspect a real request']},
   {lbl:'Wed',topic:'DNS — Domain Name System',tasks:['How DNS resolution works step by step','Recursive vs authoritative resolvers','DNS record types: A, CNAME, MX, TXT, NS','TTL and caching in DNS','Draw the DNS resolution flow from scratch']},
   {lbl:'Thu',topic:'TCP vs UDP',tasks:['TCP three-way handshake: SYN → SYN-ACK → ACK','Why TCP guarantees delivery and ordering','UDP: what is fire-and-forget and when to prefer it','Real examples: TCP for banking, UDP for gaming/video calls']},
   {lbl:'Fri',topic:'OSI Model — all 7 layers',tasks:['Layer 1-7: Physical → Data Link → Network → Transport → Session → Presentation → Application','Map HTTP, TCP, IP, Ethernet to their layers','Why engineers mostly care about L3, L4, L7','Practice: trace a YouTube video load through the OSI model']},
-  {lbl:'Sat',topic:'Practice day — URL journey',practice:true,tasks:['Full exercise: draw everything that happens when you type "amazon.com" and press Enter','Cover: DNS lookup → TCP connect → HTTP request → response → render','Explain it out loud as if teaching a junior dev','Write a 1-page summary of Week 1 in your own words']},
+  {lbl:'Sat',topic:'Practice day — URL journey',practice:true,tasks:['Full exercise: draw everything that happens when you type "amazon.com" and press Enter','Cover: DNS lookup → TCP connect → HTTP request → response → render','Explain it out loud as if teaching a junior dev','Write a 1-page summary of Week 2 in your own words']},
 ]},
 
-{w:2,phase:1,title:'APIs & Communication Protocols',note:'Spend extra time on REST — you will use it in every single system design interview.',days:[
+{w:3,phase:1,title:'APIs & Communication Protocols',note:'Spend extra time on REST — you will use it in every single system design interview.',days:[
   {lbl:'Mon',topic:'REST API principles',tasks:['6 REST constraints: stateless, uniform interface, layered, etc.','Resource naming conventions and URL design','HTTP status codes: 2xx, 3xx, 4xx, 5xx and when to use each','Pagination: offset-based vs cursor-based']},
   {lbl:'Tue',topic:'REST best practices & API design',tasks:['API versioning strategies: URL path vs header','Idempotency: which HTTP methods are idempotent and why','Rate limiting in APIs — headers and patterns','Design a REST API for a todo app: endpoints, responses, errors']},
   {lbl:'Wed',topic:'GraphQL vs REST',tasks:['What problems GraphQL solves (over-fetching, under-fetching)','Queries, mutations, subscriptions in GraphQL','When to choose GraphQL over REST (and when not to)','Read: how GitHub migrated to GraphQL']},
@@ -18,17 +27,17 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — API design session',practice:true,tasks:['Design complete REST API for a social media app (users, posts, likes, follow)','Add: rate limiting, pagination, versioning','Mock explain: "how would you design the API layer for Twitter?" (talk for 5 min)','Note down 3 things you are still unclear about']},
 ]},
 
-{w:3,phase:1,title:'Security Basics & Phase 1 Review',note:'Security keeps appearing in system design — knowing auth patterns is essential for interviews.',days:[
+{w:4,phase:1,title:'Security Basics & Phase 1 Review',note:'Security keeps appearing in system design — knowing auth patterns is essential for interviews.',days:[
   {lbl:'Mon',topic:'Authentication & Authorization',tasks:['Session-based auth: cookies, server-side sessions','Token-based auth: JWT structure, signing, expiry','OAuth 2.0 flow: authorization code, client credentials','Difference: authentication (who) vs authorization (what)']},
   {lbl:'Tue',topic:'HTTPS, TLS & Security headers',tasks:['TLS handshake: certificates, symmetric key exchange','CORS: why it exists and how preflight works','HTTPS everywhere: HSTS header','XSS and CSRF: what they are and basic mitigations']},
   {lbl:'Wed',topic:'HTTP caching deep dive',tasks:['Cache-Control directives: max-age, no-cache, no-store, private, public','ETag and If-None-Match: conditional requests','Last-Modified vs ETag','Where caching happens: browser, CDN, reverse proxy']},
-  {lbl:'Thu',topic:'Review — networking & APIs',tasks:['Re-read your Week 1-2 notes, fill in any gaps','Quiz yourself: explain DNS without notes (2 min)','Quiz yourself: explain the difference between REST and gRPC','Write 5 interview Q&As from this phase']},
-  {lbl:'Fri',topic:'Review — auth & security',tasks:['Draw the OAuth 2.0 authorization code flow from memory','Compare: sessions vs JWT — pros/cons table','When would you choose gRPC over REST? (write 3 scenarios)','Identify 2 weak spots from Weeks 1-3 and revisit them']},
+  {lbl:'Thu',topic:'Review — networking & APIs',tasks:['Re-read your Week 2-3 notes, fill in any gaps','Quiz yourself: explain DNS without notes (2 min)','Quiz yourself: explain the difference between REST and gRPC','Write 5 interview Q&As from this phase']},
+  {lbl:'Fri',topic:'Review — auth & security',tasks:['Draw the OAuth 2.0 authorization code flow from memory','Compare: sessions vs JWT — pros/cons table','When would you choose gRPC over REST? (write 3 scenarios)','Identify 2 weak spots from Weeks 2-4 and revisit them']},
   {lbl:'Sat',topic:'Mini-design: explain a real system',practice:true,tasks:['Design the networking + API layer for a weather app serving 1M users','Include: DNS, CDN, API design, auth, rate limiting','Time yourself: 30 minutes. Then review what you missed','Phase 1 complete — note your confidence level 1-10']},
 ]},
 
-// ═══ PHASE 2: Core Components (Weeks 4-8) ═══
-{w:4,phase:2,title:'Relational Databases',note:'"Designing Data-Intensive Applications" by Kleppmann is your bible from here on. Start reading it alongside this week.',days:[
+// ═══ PHASE 2: Core Components (Weeks 5-9) ═══
+{w:5,phase:2,title:'Relational Databases',note:'"Designing Data-Intensive Applications" by Kleppmann is your bible from here on. Start reading it alongside this week.',days:[
   {lbl:'Mon',topic:'Relational DB fundamentals',tasks:['Tables, rows, columns, primary keys, foreign keys','Normalization: 1NF, 2NF, 3NF — with examples','What denormalization is and when to use it','RDBMS options: PostgreSQL vs MySQL — key differences']},
   {lbl:'Tue',topic:'SQL deep dive',tasks:['JOINs: INNER, LEFT, RIGHT, FULL OUTER — practice each','Subqueries vs JOINs: when each is better','GROUP BY, HAVING, window functions','Write 10 SQL queries on a sample schema (users, orders, products)']},
   {lbl:'Wed',topic:'Indexing — the most important DB concept',tasks:['What an index is and why queries without it are slow','B-Tree index: how it works internally (read Kleppmann ch. 3)','Composite indexes: order matters — why','When NOT to add an index: write overhead, storage cost','Use EXPLAIN on a PostgreSQL query']},
@@ -37,7 +46,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — schema design',practice:true,tasks:['Design the full schema for a Twitter-like app: users, tweets, follows, likes, hashtags','Add appropriate indexes for the 5 most common queries','Write the SQL for: "get the 20 most recent tweets from people I follow"','Estimate: how many rows per table at 10M users?']},
 ]},
 
-{w:5,phase:2,title:'NoSQL Databases',note:'The point is not to memorize every NoSQL DB. Learn the categories and trade-offs — that is what interviews test.',days:[
+{w:6,phase:2,title:'NoSQL Databases',note:'The point is not to memorize every NoSQL DB. Learn the categories and trade-offs — that is what interviews test.',days:[
   {lbl:'Mon',topic:'NoSQL fundamentals & categories',tasks:['Why NoSQL was created — the problem it solves','4 types: Document, Key-Value, Wide-Column, Graph','BASE vs ACID: eventual consistency concept','Examples: MongoDB (doc), DynamoDB (KV), Cassandra (wide-col), Neo4j (graph)']},
   {lbl:'Tue',topic:'Document stores — MongoDB',tasks:['Collections and documents: JSON-like structure','Querying documents: find, filter, project','Embedding vs referencing related data','When documents are a better fit than tables']},
   {lbl:'Wed',topic:'Key-Value stores — Redis & DynamoDB',tasks:['Redis data structures: strings, lists, sets, sorted sets, hashes','Redis use cases: caching, sessions, rate limiting, leaderboards','DynamoDB: partition key, sort key, GSI, LSI','Single-table design pattern in DynamoDB']},
@@ -46,7 +55,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — DB selection & schema',practice:true,tasks:['Given 5 scenarios, choose the right DB type and justify','Design the data model for a WhatsApp message store in Cassandra','Design the user profile store for LinkedIn — SQL or NoSQL? Why?','Explain to yourself: why does Cassandra scale better than PostgreSQL?']},
 ]},
 
-{w:6,phase:2,title:'Caching',note:'Caching is asked in almost every system design interview. You must know it cold.',days:[
+{w:7,phase:2,title:'Caching',note:'Caching is asked in almost every system design interview. You must know it cold.',days:[
   {lbl:'Mon',topic:'Caching fundamentals',tasks:['What caching is and why it matters: latency reduction, DB offload','Cache hit ratio and why it matters economically','Where you can cache: client, CDN, reverse proxy, application, DB','Cold start problem: cache warming strategies']},
   {lbl:'Tue',topic:'Caching strategies',tasks:['Cache-Aside (Lazy loading): read flow and write flow','Write-Through: always write to cache + DB simultaneously','Write-Back (Write-Behind): write to cache first, async to DB','Read-Through cache: cache sits in front of DB','Which strategy for which use case — decision table']},
   {lbl:'Wed',topic:'Cache eviction policies',tasks:['LRU (Least Recently Used): how it works, where it fits','LFU (Least Frequently Used): use case differences','FIFO and random eviction','TTL (time-to-live): when and how to set it','Thundering herd problem + cache stampede — how to prevent']},
@@ -55,7 +64,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — caching design',practice:true,tasks:['Add a caching layer to a news feed system: what to cache, where, for how long','Design a leaderboard with Redis sorted sets for 50M users','Cache invalidation exercise: user updates their profile — trace all invalidations needed','Estimate: how much memory do you need to cache 10M user sessions?']},
 ]},
 
-{w:7,phase:2,title:'Load Balancers, CDNs & Proxies',days:[
+{w:8,phase:2,title:'Load Balancers, CDNs & Proxies',days:[
   {lbl:'Mon',topic:'Load balancers fundamentals',tasks:['What a load balancer does: distribute traffic, eliminate single point of failure','L4 (transport layer) vs L7 (application layer) load balancing','L7 LB: can route based on URL path, headers, cookies','Hardware LB vs software LB (HAProxy, Nginx, AWS ELB)']},
   {lbl:'Tue',topic:'Load balancing algorithms',tasks:['Round Robin: simple rotation — pros and cons','Weighted Round Robin: heavier servers get more traffic','Least Connections: route to least busy server','IP Hash: sticky routing by client IP','Random with two choices: power of two choices algorithm']},
   {lbl:'Wed',topic:'Sticky sessions & health checks',tasks:['Why sticky sessions exist: stateful services problem','How to implement: cookie-based, IP-based','Health checks: active (LB pings server) vs passive (detect failed requests)','Graceful draining: stop sending new requests before shutdown','Why stateless design avoids sticky session problems']},
@@ -64,7 +73,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — traffic architecture',practice:true,tasks:['Draw the full traffic layer for an app with 5M daily active users','Include: DNS, CDN, load balancer, application servers, cache, DB','Design the CDN strategy for a video platform — push or pull? TTL? Invalidation?','Explain the difference between L4 and L7 LB without notes (3 minutes)']},
 ]},
 
-{w:8,phase:2,title:'Phase 2 Consolidation & Mini Designs',note:'This week is deliberate review. Do not skip it to move faster — consolidation is where real understanding forms.',days:[
+{w:9,phase:2,title:'Phase 2 Consolidation & Mini Designs',note:'This week is deliberate review. Do not skip it to move faster — consolidation is where real understanding forms.',days:[
   {lbl:'Mon',topic:'Read real architecture: Dropbox',tasks:['Read the Dropbox engineering blog on their storage architecture','Identify: which DB, what caching, how they handle sync conflicts','Note: what from your Phase 2 learning appears in their architecture','Write a 10-bullet summary of their design decisions']},
   {lbl:'Tue',topic:'Read real architecture: Pinterest',tasks:['Read Pinterest\'s engineering blog on sharding MySQL','How they went from 1 DB to 8000+ shards','What problems they hit at scale that you have now studied','Map their problems to the concepts you have learned']},
   {lbl:'Wed',topic:'Phase 2 review — weak spots',tasks:['List your 3 weakest Phase 2 topics','Spend 30 min on each weak spot — re-read, re-draw, re-explain','Create a cheat sheet: one page covering all Phase 2 components','Self-quiz: 10 questions from Phase 2, answer without notes']},
@@ -73,8 +82,8 @@ export const PLAN = [
   {lbl:'Sat',topic:'Full mock — E-commerce product page',practice:true,tasks:['Design the system behind an Amazon product detail page','Include: product DB, inventory, reviews, image CDN, recommendations cache','Handle: flash sale spikes (10x traffic in 1 min)','Time: 45 minutes. Write it out, then self-review against best practices']},
 ]},
 
-// ═══ PHASE 3: Scalability & Reliability (Weeks 9-12) ═══
-{w:9,phase:3,title:'Scaling Strategies & Replication',note:'This phase separates junior engineers from senior. Take it seriously — every real-world outage ties back to something in Weeks 9-12.',days:[
+// ═══ PHASE 3: Scalability & Reliability (Weeks 10-13) ═══
+{w:10,phase:3,title:'Scaling Strategies & Replication',note:'This phase separates junior engineers from senior. Take it seriously — every real-world outage ties back to something in Weeks 10-13.',days:[
   {lbl:'Mon',topic:'Horizontal vs vertical scaling',tasks:['Vertical scaling (scale up): CPU, RAM limits — ceiling problems','Horizontal scaling (scale out): stateless services scale better','When vertical is the right choice: early stage, DB in some cases','Auto-scaling: how cloud providers scale on demand']},
   {lbl:'Tue',topic:'Stateless vs stateful design',tasks:['Stateless services: all state stored externally (DB, cache)','Why stateless enables easy horizontal scaling','Stateful services: chat connections, game servers — how to handle','Session externalization: store sessions in Redis instead of memory']},
   {lbl:'Wed',topic:'Database replication — leader-follower',tasks:['Leader-follower (primary-replica) replication setup','Synchronous vs asynchronous replication — trade-offs','Replication lag: what it is and real consequences (read-your-writes)','What happens when the leader fails: failover process']},
@@ -83,7 +92,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — scale a blog to 10M users',practice:true,tasks:['Start: 1 server, 1 DB, 1000 users','Step through scale: 10K → 100K → 1M → 10M users','At each step: what breaks first, how do you fix it','End result: draw the final architecture with all layers']},
 ]},
 
-{w:10,phase:3,title:'Sharding & Data Partitioning',days:[
+{w:11,phase:3,title:'Sharding & Data Partitioning',days:[
   {lbl:'Mon',topic:'Database sharding fundamentals',tasks:['What sharding is: horizontal partitioning across multiple DBs','Why you shard: too much data/write load for one DB','Sharding at the app layer vs middleware vs DB-native','Shard key selection: the most critical decision']},
   {lbl:'Tue',topic:'Sharding strategies',tasks:['Range-based sharding: shard by ID range or date — pros and cons','Hash-based sharding: shard = hash(key) % N','Directory-based sharding: lookup table maps key to shard','Geo-based sharding: route by user location']},
   {lbl:'Wed',topic:'Consistent hashing',tasks:['Problem with hash % N: reshuffling when N changes','Consistent hashing ring: how nodes sit on a ring','Virtual nodes (vnodes): why and how they solve hot spots','Read the Amazon Dynamo paper (sections 1-4)']},
@@ -92,7 +101,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — shard a URL shortener',practice:true,tasks:['Design sharding strategy for a URL shortener at 100M URLs','Choose a shard key — what are the trade-offs?','How do you look up a short code — which shard?','How do you handle analytics (click counts) without overloading one shard?']},
 ]},
 
-{w:11,phase:3,title:'CAP Theorem, Availability & Rate Limiting',note:'CAP theorem is widely misunderstood. Read the original 2002 Brewer paper — it is short and worth it.',days:[
+{w:12,phase:3,title:'CAP Theorem, Availability & Rate Limiting',note:'CAP theorem is widely misunderstood. Read the original 2002 Brewer paper — it is short and worth it.',days:[
   {lbl:'Mon',topic:'CAP theorem — deep understanding',tasks:['CAP: Consistency, Availability, Partition Tolerance','Why you can only pick 2: proof via network partition scenario','CP systems: HBase, Zookeeper, Redis Cluster','AP systems: DynamoDB, Cassandra, CouchDB','CA systems: PostgreSQL, MySQL — only in single-server setups']},
   {lbl:'Tue',topic:'Consistency models beyond CAP',tasks:['Strong consistency: linearizability — real meaning','Sequential consistency: less strict','Eventual consistency: all nodes converge eventually','Read-your-writes, monotonic reads, causal consistency','PACELC theorem: extends CAP to include latency trade-off']},
   {lbl:'Wed',topic:'High availability patterns',tasks:['Active-Passive: primary + hot standby','Active-Active: both serve traffic, conflict resolution needed','SLA math: 99.9% = 8.76 hrs downtime/year; 99.99% = 52 mins','Failure domains: region, AZ, rack isolation','Eliminating single points of failure: every component']},
@@ -101,7 +110,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — design a rate limiter',practice:true,tasks:['Full design: rate limiter service for an API with 1M requests/min','Use Redis sliding window counter approach','Handle distributed rate limiting (multiple API servers share state)','Edge cases: client clock skew, Redis failure fallback, burst allowance']},
 ]},
 
-{w:12,phase:3,title:'Resilience & Fault Tolerance Patterns',days:[
+{w:13,phase:3,title:'Resilience & Fault Tolerance Patterns',days:[
   {lbl:'Mon',topic:'Circuit breaker pattern',tasks:['Problem: cascading failures when a downstream service is slow','Circuit breaker states: Closed → Open → Half-Open','How to implement: failure threshold, timeout, probe request','Libraries: Hystrix (Java), resilience4j, Polly (.NET)','When to use vs not use a circuit breaker']},
   {lbl:'Tue',topic:'Retry patterns',tasks:['Naive retry: why it makes things worse (thundering herd)','Exponential backoff: delay doubles each attempt','Jitter: add randomness to backoff to spread retries','Retry budget: max N retries, not forever','Idempotency requirement: only retry idempotent operations']},
   {lbl:'Wed',topic:'Bulkhead & timeout patterns',tasks:['Bulkhead: isolate failure domains (thread pools per service)','Timeout: always set timeouts — never wait forever','Timeout hierarchy: overall request timeout > per-hop timeout','Cascading timeouts: how a slow DB call kills your API latency','Connection pool sizing: formula and guidelines']},
@@ -110,8 +119,8 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — resilient payment service',practice:true,tasks:['Design a payment processing service that is fault-tolerant','Add: circuit breaker to payment gateway, retry with idempotency key','Handle: DB failure (fall back to queue + process later)','Handle: partial failures — charge succeeded but confirmation failed','Review: what is your SLO for this service?']},
 ]},
 
-// ═══ PHASE 4: Distributed Systems (Weeks 13-16) ═══
-{w:13,phase:4,title:'Message Queues & Async Processing',note:'Kafka is the most interview-relevant tool here. Spend real time with it.',days:[
+// ═══ PHASE 4: Distributed Systems (Weeks 14-17) ═══
+{w:14,phase:4,title:'Message Queues & Async Processing',note:'Kafka is the most interview-relevant tool here. Spend real time with it.',days:[
   {lbl:'Mon',topic:'Why message queues exist',tasks:['Problem: synchronous call chains create tight coupling','Decoupling producers from consumers','Async processing: respond immediately, process later','Durability: messages survive process restarts','Use cases: email sending, order processing, image resizing']},
   {lbl:'Tue',topic:'Kafka deep dive — part 1',tasks:['Kafka concepts: topics, partitions, offsets, consumer groups','Why partitions enable parallelism: 10 partitions = 10 consumers','Producer: key-based partitioning — same key → same partition','Retention: Kafka keeps messages for N days (not just until consumed)','Kafka vs traditional queues: replay capability']},
   {lbl:'Wed',topic:'Kafka deep dive — part 2',tasks:['Consumer groups: each group gets all messages independently','Offset management: commit after processing (at-least-once)','Rebalancing: what happens when consumers join or leave','Kafka replication: leader partition + follower replicas','Kafka as event log vs queue: architecture implications']},
@@ -120,7 +129,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — order processing system',practice:true,tasks:['Add Kafka to an e-commerce order flow: place order → payment → inventory → ship','Design consumer groups for each step','Handle: payment failed → dead letter → retry queue → human review','Estimate: how many Kafka partitions for 100K orders/min?']},
 ]},
 
-{w:14,phase:4,title:'Event-Driven Architecture',days:[
+{w:15,phase:4,title:'Event-Driven Architecture',days:[
   {lbl:'Mon',topic:'Event-driven vs request-driven',tasks:['Request-driven: caller waits for response synchronously','Event-driven: emit event, interested parties react','Event vs command vs query: semantic differences','Benefits: loose coupling, scalability, audit trail']},
   {lbl:'Tue',topic:'Event sourcing',tasks:['Store state as a sequence of events, not current state','Rebuilding state: replay all events from beginning','Snapshots: take a snapshot at event N to speed up replay','Append-only event log: why it is powerful for auditing','Use cases: banking ledger, shopping cart, GitHub commits']},
   {lbl:'Wed',topic:'CQRS pattern',tasks:['Command Query Responsibility Segregation — what and why','Write model: handles commands, emits events','Read model: optimized projections built from events','Eventual consistency between write and read models','CQRS + Event Sourcing: how they work together']},
@@ -129,7 +138,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — event-driven notification system',practice:true,tasks:['Design a notification system: user actions trigger email/push/SMS','Use pub/sub for fan-out to notification channels','Handle: user preferences (unsubscribed channels must be skipped)','Handle: notification deduplication (same event fires twice)','Add: dead letter queue for failed notifications']},
 ]},
 
-{w:15,phase:4,title:'Microservices & Service Patterns',days:[
+{w:16,phase:4,title:'Microservices & Service Patterns',days:[
   {lbl:'Mon',topic:'Microservices vs monolith',tasks:['Monolith benefits: simpler to build, deploy, debug','Microservices benefits: independent scaling, team autonomy, tech heterogeneity','Microservices costs: network latency, distributed debugging, data consistency','When to start with monolith — the Majestic Monolith','Strangler fig pattern: migrate monolith to microservices gradually']},
   {lbl:'Tue',topic:'Service discovery & communication',tasks:['Service registry: Consul, Eureka — services register themselves','Client-side discovery vs server-side discovery','Kubernetes DNS-based discovery','Synchronous: REST/gRPC between services','Asynchronous: events via Kafka — when each is appropriate']},
   {lbl:'Wed',topic:'API gateway & BFF pattern',tasks:['API gateway: single entry point — routing, auth, rate limiting, observability','What the gateway should NOT do: business logic','Backend for Frontend (BFF): different gateways for mobile vs web','GraphQL federation: single schema across multiple services','API gateway options: Kong, AWS API Gateway, Nginx Plus']},
@@ -138,7 +147,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — decompose a monolith',practice:true,tasks:['Given a monolithic e-commerce app, identify service boundaries','Break into: user service, product service, order service, payment service','Design inter-service communication: sync or async for each call','Identify: what happens to the checkout flow if payment service is down?']},
 ]},
 
-{w:16,phase:4,title:'Consensus, Coordination & Advanced Topics',note:'This week covers the deep internals that power everything. You don\'t build these — you need to know why they matter.',days:[
+{w:17,phase:4,title:'Consensus, Coordination & Advanced Topics',note:'This week covers the deep internals that power everything. You don\'t build these — you need to know why they matter.',days:[
   {lbl:'Mon',topic:'Distributed consensus problem',tasks:['Why consensus is hard: network partitions, node failures','Byzantine fault tolerance vs crash fault tolerance','Impossibility: FLP result — why perfect consensus is impossible','What consensus enables: leader election, distributed locks, config']},
   {lbl:'Tue',topic:'Raft algorithm',tasks:['Leader election: term-based voting','Log replication: leader appends, followers replicate','Commit: majority acknowledgement (quorum)','Leader failure: new election with higher term','Read the Raft paper (visualized at raft.github.io — use the simulator)']},
   {lbl:'Wed',topic:'Zookeeper & etcd',tasks:['Zookeeper: coordination service for distributed systems','ZNodes, watches, ephemeral nodes — the primitives','Use cases: Kafka broker metadata, HBase master election','etcd: key-value store used by Kubernetes for config','etcd vs Zookeeper: design differences']},
@@ -147,8 +156,8 @@ export const PLAN = [
   {lbl:'Sat',topic:'Practice — distributed job scheduler',practice:true,tasks:['Design a distributed cron-like job scheduler (think AWS EventBridge)','Ensure: exactly-once execution (idempotent jobs, distributed lock)','Handle: scheduler node failure — job must still run','Scale to: 10M jobs/day with sub-second scheduling precision','Review: what consensus mechanism keeps schedulers coordinated?']},
 ]},
 
-// ═══ PHASE 5: Classic Practice Problems (Weeks 17-19) ═══
-{w:17,phase:5,title:'URL Shortener, Twitter & WhatsApp',note:'Speak out loud when practicing. The ability to communicate trade-offs clearly is 80% of a system design interview.',days:[
+// ═══ PHASE 5: Classic Practice Problems (Weeks 18-20) ═══
+{w:18,phase:5,title:'URL Shortener, Twitter & WhatsApp',note:'Speak out loud when practicing. The ability to communicate trade-offs clearly is 80% of a system design interview.',days:[
   {lbl:'Mon',topic:'URL Shortener — design',practice:true,tasks:['Requirements: 100M URLs, 10B redirects/day, 100ms p99 latency','Short code generation: base62, MD5 truncation, snowflake ID','DB schema: (id, short_code, long_url, user_id, created_at)','Read path: cache short_code → long_url in Redis (high hit rate)']},
   {lbl:'Tue',topic:'URL Shortener — scale & edge cases',practice:true,tasks:['Custom aliases: how to handle collision with auto-generated codes','Expiry: TTL on URLs — how to clean up expired entries','Analytics: click tracking without slowing down redirect (async Kafka)','Abuse prevention: rate limiting, blacklist check','Review: draw the full architecture and time yourself']},
   {lbl:'Wed',topic:'Twitter feed — tweet storage & fanout',practice:true,tasks:['Two fanout models: fanout-on-write vs fanout-on-read','Fanout-on-write: push tweet to all followers\' feed cache on write','Fanout-on-read: pull and merge on read — used for celebrities','Hybrid: fanout-on-write for regular users, fanout-on-read for celebrities (>1M followers)','Tweet DB: partitioned by tweet_id (snowflake ID with timestamp)']},
@@ -157,7 +166,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'WhatsApp — group chat & media',practice:true,tasks:['Group messages: fan-out to all group members via Kafka','Group size limits: WhatsApp caps at 1024 — why this simplifies design','Media: upload to S3, store URL in message, serve via CDN','Offline messages: store in DB, push when user reconnects','Full mock: design WhatsApp in 45 min, time yourself']},
 ]},
 
-{w:18,phase:5,title:'YouTube, Uber & Web Crawlers',days:[
+{w:19,phase:5,title:'YouTube, Uber & Web Crawlers',days:[
   {lbl:'Mon',topic:'YouTube — video upload pipeline',practice:true,tasks:['Upload flow: user uploads → raw storage (S3) → transcoding queue (Kafka)','Transcoding workers: convert to 360p, 720p, 1080p, 4K','Output: store variants in S3, update video metadata in DB','DAG-based transcoding pipeline: encode, thumbnail, watermark in parallel','How long does transcoding take at scale? Estimate for a 1GB video']},
   {lbl:'Tue',topic:'YouTube — streaming & recommendations',practice:true,tasks:['Adaptive bitrate streaming: DASH or HLS — switch quality based on bandwidth','Byte-range requests: seek to any position in video efficiently','CDN strategy: pre-warm edge cache for popular videos before upload completes','Recommendation engine: collaborative filtering (simplified) — co-watch graph','View count: use a streaming counter (Kafka + batch aggregator) to avoid DB write storms']},
   {lbl:'Wed',topic:'Uber — location & matching',practice:true,tasks:['Driver location: drivers push GPS every 4 seconds → Cassandra (driver_id, lat, lng, timestamp)','Finding nearby drivers: geospatial index — geohash or quadtree','Matching algorithm: find nearest available driver with acceptable ETA','Supply/demand: how surge pricing is calculated (simple version)','Map routing: integrate Google Maps API or own routing engine (like OSRM)']},
@@ -166,7 +175,7 @@ export const PLAN = [
   {lbl:'Sat',topic:'Type-ahead search system',practice:true,tasks:['What type-ahead needs: real-time suggestions as user types','Trie data structure: prefix search in O(L) time','Problem: trie in memory is expensive for 10M terms','Solution: store top-K completions per prefix node','Search backend: Elasticsearch prefix queries or Redis sorted sets with lexicographic ranges','Full design: include ranking (popularity score + personalization)']},
 ]},
 
-{w:19,phase:5,title:'Mixed Practice & Mock Interviews',note:'This week is the most valuable if you do it right. Uncomfortable practice now = confidence in the real interview.',days:[
+{w:20,phase:5,title:'Mixed Practice & Mock Interviews',note:'This week is the most valuable if you do it right. Uncomfortable practice now = confidence in the real interview.',days:[
   {lbl:'Mon',topic:'Design a distributed key-value store',practice:true,tasks:['Design Amazon DynamoDB or Apache Cassandra from scratch','Cover: partitioning (consistent hashing), replication, read/write quorums','Consistency: tunable (ONE, QUORUM, ALL) — explain each','Compaction: how SSTable merges work over time','Bloom filters: why KV stores use them to skip unnecessary disk reads']},
   {lbl:'Tue',topic:'Design Google Drive / Dropbox',practice:true,tasks:['File chunking: break file into 4MB blocks, deduplicate with hash','Sync protocol: delta sync (only upload changed chunks)','Conflict resolution: last-write-wins or operational transforms','Metadata DB: file tree per user — PostgreSQL with ltree extension','Upload API: chunked upload with resumability (S3 multipart)']},
   {lbl:'Wed',topic:'Design a hotel booking system',practice:true,tasks:['Inventory: hotel × room_type × date → available count','Booking: prevent double booking — optimistic locking or DB constraint','Search: Elasticsearch for location + date + amenity search','Pricing: dynamic pricing engine — read-heavy, update nightly','Cancellation policy: state machine with time-based transitions']},
@@ -175,8 +184,8 @@ export const PLAN = [
   {lbl:'Sat',topic:'Full timed mock interview',practice:true,tasks:['Pick a random problem from Weeks 17-19 you haven\'t done today','Set a 45-minute timer — do not pause','Structure: 5 min requirements → 10 min high level → 20 min deep dive → 10 min scale','Record yourself or write it out completely','Self-evaluate: communication clarity, trade-off reasoning, completeness']},
 ]},
 
-// ═══ PHASE 6: AI-Era System Design (Week 20) ═══
-{w:20,phase:6,title:'AI-Era System Design',note:'This phase is the frontier. Companies building AI products need engineers who can think across both traditional systems and AI-native infrastructure.',days:[
+// ═══ PHASE 6: AI-Era System Design (Week 21) ═══
+{w:21,phase:6,title:'AI-Era System Design',note:'This phase is the frontier. Companies building AI products need engineers who can think across both traditional systems and AI-native infrastructure.',days:[
   {lbl:'Mon',topic:'LLM inference serving at scale',tasks:['KV cache in LLMs: why it matters for inference speed','Batching: continuous batching vs static batching','GPU scheduling: model parallelism (tensor parallel, pipeline parallel)','Speculative decoding: draft model speeds up main model','Real system: design an OpenAI-style API with <200ms TTFT p99']},
   {lbl:'Tue',topic:'Vector databases',tasks:['Embeddings: what they are and why vector similarity matters','HNSW (Hierarchical Navigable Small World) index: how approximate nearest neighbor search works','ANN vs exact NN: why approximation is acceptable and much faster','Vector DB options: Pinecone, Weaviate, Qdrant, pgvector','Chunking strategies: what chunk size to use for documents and why']},
   {lbl:'Wed',topic:'RAG pipeline design',tasks:['RAG (Retrieval Augmented Generation): query → retrieve → augment → generate','Chunking: fixed size, sentence, semantic — trade-offs','Retrieval: dense (vector) + sparse (BM25) hybrid retrieval','Re-ranking: cross-encoder re-ranks top-K results before sending to LLM','Design a production RAG system: ingestion pipeline + query pipeline']},

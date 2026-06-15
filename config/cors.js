@@ -12,8 +12,9 @@ function originToRegex(pattern) {
   return new RegExp(`^${escaped}$`, 'i');
 }
 
-/** Vercel production + preview deployments for the frontend */
+/** Vercel and Render frontend deployments */
 const VERCEL_ORIGIN = /^https:\/\/[\w.-]+\.vercel\.app$/i;
+const RENDER_ORIGIN = /^https:\/\/[\w.-]+\.onrender\.com$/i;
 
 export function getCorsConfig(isProd) {
   const configured = parseOrigins(process.env.FRONTEND_URL);
@@ -28,6 +29,7 @@ export function getCorsConfig(isProd) {
     if (configured.includes(normalized)) return true;
     if (patterns.some((re) => re.test(normalized))) return true;
     if (VERCEL_ORIGIN.test(normalized)) return true;
+    if (RENDER_ORIGIN.test(normalized)) return true;
 
     return false;
   }

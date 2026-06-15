@@ -98,6 +98,7 @@ const userProgressSchema = new mongoose.Schema(
     settings: {
       darkMode: { type: Boolean, default: false },
       planStartDate: { type: String },
+      planVersion: { type: Number, default: 1 },
     },
   },
   { timestamps: true }

@@ -23,6 +23,7 @@ import {
   getDayCompletionPercent,
 } from '../utils/analytics.js';
 import { ACHIEVEMENTS } from '../utils/achievements.js';
+import { getTotalPlanDays } from '../utils/planHelpers.js';
 import { computePlanStartDate, buildScheduleHeatmap, dateToDayNum } from '../utils/schedule.js';
 
 const router = express.Router();
@@ -49,6 +50,7 @@ router.get('/', authMiddleware, async (req, res) => {
     const serialized = serializeProgress(progress);
     const planStartDate = await ensurePlanStartDate(progress, serialized);
     const allDaysRaw = flattenPlan(plan.weeks);
+    const totalPlanDays = getTotalPlanDays(plan.weeks);
     const currentDayNum = getCurrentDayNum(allDaysRaw, serialized.dayDone);
 
     const allDays = allDaysRaw.map((d) => ({
@@ -93,12 +95,13 @@ router.get('/', authMiddleware, async (req, res) => {
 
     res.json({
       planStartDate,
-      scheduledToday: dateToDayNum(new Date(), planStartDate),
+      scheduledToday: dateToDayNum(new Date(), planStartDate, totalPlanDays),
       currentDayNum,
       currentDay,
       currentWeek: currentDay.week,
       currentPhase: currentDay.phase,
-      daysRemaining: 120 - doneCount,
+      totalPlanDays,
+      daysRemaining: totalPlanDays - doneCount,
       daysCompleted: doneCount,
       overallProgress: computeOverallProgress(allDays, serialized.dayDone),
       weekProgress: computeWeekProgress(allDays, serialized.dayDone, currentDay.week),
@@ -141,6 +144,7 @@ router.get('/export', authMiddleware, async (req, res) => {
     ]);
     const serialized = serializeProgress(progress);
     const allDays = flattenPlan(plan.weeks);
+    const totalPlanDays = getTotalPlanDays(plan.weeks);
     const streaks = computeStreaks(serialized.dayActivity);
     const doneCount = allDays.filter((d) => serialized.dayDone[`d${d._n}`]).length;
 
@@ -148,7 +152,8 @@ router.get('/export', authMiddleware, async (req, res) => {
       generatedAt: new Date().toISOString(),
       overallProgress: computeOverallProgress(allDays, serialized.dayDone),
       daysCompleted: doneCount,
-      daysRemaining: 120 - doneCount,
+      daysRemaining: totalPlanDays - doneCount,
+      totalPlanDays,
       streaks,
       totalStudyMinutes: getTotalStudyMinutes(serialized.dayActivity),
       weeklyReport: getWeeklyReport(

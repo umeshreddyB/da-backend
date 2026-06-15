@@ -10,6 +10,7 @@ import { initRevisionOnComplete } from '../utils/revision.js';
 import { checkAchievements } from '../utils/achievements.js';
 import StudyPlan from '../models/StudyPlan.js';
 import { flattenPlan } from '../utils/analytics.js';
+import { getTotalPlanDays } from '../utils/planHelpers.js';
 import { ensureKnowledgeNotesMigrated } from '../utils/notesMigration.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -189,6 +190,7 @@ router.post('/complete-day', authMiddleware, async (req, res) => {
       dayActivity,
       achievements: existingAchievements,
       phases,
+      totalPlanDays: getTotalPlanDays(plan.weeks),
     });
     if (newAchievements.length) {
       progress.achievements = [...existingAchievements, ...newAchievements];

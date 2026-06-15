@@ -4,18 +4,20 @@ export const ACHIEVEMENTS = [
   { id: 'streak_7', title: '7-Day Streak', description: 'Study 7 days in a row' },
   { id: 'streak_30', title: '30-Day Streak', description: 'Study 30 days in a row' },
   { id: 'streak_50', title: '50-Day Streak', description: 'Study 50 days in a row' },
-  { id: 'halfway', title: 'Halfway Through', description: 'Complete 60 study days' },
+  { id: 'halfway', title: 'Halfway Through', description: 'Complete half the study plan' },
   { id: 'phase_master', title: 'Phase Master', description: 'Complete an entire phase' },
   { id: 'days_100', title: '100 Days Completed', description: 'Complete 100 study days' },
-  { id: 'champion', title: 'System Design Champion', description: 'Complete all 120 days' },
+  { id: 'champion', title: 'System Design Champion', description: 'Complete the full study plan' },
 ];
 
-export function checkAchievements({ allDays, dayDone, dayActivity, achievements, phases }) {
+export function checkAchievements({ allDays, dayDone, dayActivity, achievements, phases, totalPlanDays }) {
   const unlocked = new Set((achievements || []).map((a) => a.id));
   const newlyUnlocked = [];
   const now = new Date();
 
   const doneCount = allDays.filter((d) => dayDone[`d${d._n}`]).length;
+  const totalDays = totalPlanDays || allDays.length;
+  const halfway = Math.floor(totalDays / 2);
   const streaks = computeStreakFromActivity(dayActivity);
 
   const checks = [
@@ -24,9 +26,9 @@ export function checkAchievements({ allDays, dayDone, dayActivity, achievements,
     { id: 'streak_7', condition: streaks.current >= 7 || streaks.longest >= 7 },
     { id: 'streak_30', condition: streaks.current >= 30 || streaks.longest >= 30 },
     { id: 'streak_50', condition: streaks.current >= 50 || streaks.longest >= 50 },
-    { id: 'halfway', condition: doneCount >= 60 },
+    { id: 'halfway', condition: doneCount >= halfway },
     { id: 'days_100', condition: doneCount >= 100 },
-    { id: 'champion', condition: doneCount >= 120 },
+    { id: 'champion', condition: doneCount >= totalDays },
   ];
 
   for (const phase of phases || []) {

@@ -1,15 +1,13 @@
-import { addDays, startOfDay, format, isSunday } from 'date-fns';
+import { addDays, parseISO, startOfDay, format, isSunday } from 'date-fns';
 
-export function computePlanStartDate(from = new Date()) {
-  const today = startOfDay(from);
-  const dow = today.getDay();
-  if (dow === 1) return today;
-  if (dow === 0) return addDays(today, 1);
-  return addDays(today, 8 - dow);
+export const PLAN_START_DATE = '2026-06-15';
+
+export function computePlanStartDate() {
+  return startOfDay(parseISO(PLAN_START_DATE));
 }
 
 export function dayNumToDate(dayNum, planStart) {
-  const start = startOfDay(planStart instanceof Date ? planStart : new Date(planStart));
+  const start = startOfDay(planStart instanceof Date ? planStart : parseISO(String(planStart)));
   if (dayNum <= 1) return start;
   let date = start;
   let count = 1;
@@ -20,8 +18,8 @@ export function dayNumToDate(dayNum, planStart) {
   return date;
 }
 
-export function dateToDayNum(date, planStart) {
-  const start = startOfDay(planStart instanceof Date ? planStart : new Date(planStart));
+export function dateToDayNum(date, planStart, maxDays = Infinity) {
+  const start = startOfDay(planStart instanceof Date ? planStart : parseISO(String(planStart)));
   const target = startOfDay(date);
   if (target < start || isSunday(target)) return null;
 
@@ -30,7 +28,7 @@ export function dateToDayNum(date, planStart) {
   while (current < target) {
     current = addDays(current, 1);
     if (!isSunday(current)) num += 1;
-    if (num > 120) return null;
+    if (num > maxDays) return null;
   }
   return num;
 }
