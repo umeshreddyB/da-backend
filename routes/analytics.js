@@ -24,7 +24,7 @@ import {
 } from '../utils/analytics.js';
 import { ACHIEVEMENTS } from '../utils/achievements.js';
 import { getTotalPlanDays } from '../utils/planHelpers.js';
-import { computePlanStartDate, buildScheduleHeatmap, dateToDayNum } from '../utils/schedule.js';
+import { computePlanStartDate, buildScheduleHeatmap, planDayForDate } from '../utils/schedule.js';
 
 const router = express.Router();
 
@@ -95,7 +95,7 @@ router.get('/', authMiddleware, async (req, res) => {
 
     res.json({
       planStartDate,
-      scheduledToday: dateToDayNum(new Date(), planStartDate, totalPlanDays),
+      scheduledToday: planDayForDate(new Date(), planStartDate, serialized.dayDone, totalPlanDays),
       currentDayNum,
       currentDay,
       currentWeek: currentDay.week,

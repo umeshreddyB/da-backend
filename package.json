@@ -13,7 +13,8 @@
     "seed": "node seed/seed.js",
     "reseed": "node seed/reseed.js",
     "migrate-plan": "node seed/migratePlanV2.js",
-    "migrate": "node seed/migrateIndexes.js"
+    "migrate": "node seed/migrateIndexes.js",
+    "test": "node --test utils/schedule.test.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
