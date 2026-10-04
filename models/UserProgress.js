@@ -100,6 +100,12 @@ const userProgressSchema = new mongoose.Schema(
       planStartDate: { type: String },
       planVersion: { type: Number, default: 1 },
     },
+    skillMap: {
+      topics: { type: mongoose.Schema.Types.Mixed, default: {} },
+      phases: { type: mongoose.Schema.Types.Mixed, default: {} },
+      gates: { type: mongoose.Schema.Types.Mixed, default: {} },
+      activity: { type: [mongoose.Schema.Types.Mixed], default: [] },
+    },
   },
   { timestamps: true }
 );

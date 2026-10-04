@@ -17,6 +17,7 @@ export function serializeProgress(progress) {
       achievements: [],
       revisionState: {},
       settings: { darkMode: false },
+      skillMap: { topics: {}, phases: {}, gates: {}, activity: [] },
     };
   }
 
@@ -30,5 +31,11 @@ export function serializeProgress(progress) {
     achievements: progress.achievements || [],
     revisionState: mapToObject(progress.revisionState),
     settings: progress.settings || { darkMode: false },
+    skillMap: {
+      topics: progress.skillMap?.topics || {},
+      phases: progress.skillMap?.phases || {},
+      gates: progress.skillMap?.gates || {},
+      activity: progress.skillMap?.activity || [],
+    },
   };
 }

@@ -39,6 +39,40 @@ const upload = multer({
 
 const router = express.Router();
 
+const PATCH_FIELDS = ['checked', 'dayDone', 'dayActivity', 'dayNotes', 'knowledgeNotes', 'bookmarks', 'settings', 'revisionState', 'achievements', 'skillMap'];
+const MERGED_FIELDS = ['checked', 'dayDone', 'dayActivity', 'dayNotes', 'knowledgeNotes', 'revisionState'];
+
+function collectUpdate(body) {
+  const update = {};
+  for (const key of PATCH_FIELDS) {
+    if (body[key] !== undefined) update[key] = body[key];
+  }
+  return update;
+}
+
+function applyProgressUpdate(progress, update) {
+  for (const [key, val] of Object.entries(update)) {
+    if (key === 'settings') {
+      progress.settings = { ...progress.settings?.toObject?.() || progress.settings || {}, ...val };
+    } else if (key === 'skillMap') {
+      const existing = progress.skillMap?.toObject?.() || progress.skillMap || {};
+      progress.skillMap = {
+        topics: val.topics ?? existing.topics ?? {},
+        phases: val.phases ?? existing.phases ?? {},
+        gates: val.gates ?? existing.gates ?? {},
+        activity: Array.isArray(val.activity) ? val.activity : (existing.activity || []),
+      };
+      progress.markModified('skillMap');
+    } else if (MERGED_FIELDS.includes(key)) {
+      const existing = mapToObject(progress[key]);
+      progress[key] = { ...existing, ...val };
+      progress.markModified(key);
+    } else {
+      progress[key] = val;
+    }
+  }
+}
+
 router.get('/', authMiddleware, async (req, res) => {
   try {
     let progress = await UserProgress.findOne({ userId: req.userId });
@@ -58,14 +92,20 @@ router.get('/', authMiddleware, async (req, res) => {
   }
 });
 
+async function saveProgressUpdate(userId, update) {
+  let progress = await UserProgress.findOne({ userId });
+  if (!progress) {
+    progress = await UserProgress.create({ userId, ...update });
+  } else {
+    applyProgressUpdate(progress, update);
+    await progress.save();
+  }
+  return progress;
+}
+
 router.put('/', authMiddleware, async (req, res) => {
   try {
-    const { checked = {}, dayDone = {} } = req.body;
-    const progress = await UserProgress.findOneAndUpdate(
-      { userId: req.userId },
-      { checked, dayDone },
-      { new: true, upsert: true }
-    );
+    const progress = await saveProgressUpdate(req.userId, collectUpdate(req.body));
     res.json(serializeProgress(progress));
   } catch (err) {
     console.error(err);
@@ -75,30 +115,7 @@ router.put('/', authMiddleware, async (req, res) => {
 
 router.patch('/', authMiddleware, async (req, res) => {
   try {
-    const update = {};
-    const allowed = ['checked', 'dayDone', 'dayActivity', 'dayNotes', 'knowledgeNotes', 'bookmarks', 'settings', 'revisionState', 'achievements'];
-    for (const key of allowed) {
-      if (req.body[key] !== undefined) update[key] = req.body[key];
-    }
-
-    let progress = await UserProgress.findOne({ userId: req.userId });
-    if (!progress) {
-      progress = await UserProgress.create({ userId: req.userId, ...update });
-    } else {
-      for (const [key, val] of Object.entries(update)) {
-        if (key === 'settings') {
-          progress.settings = { ...progress.settings?.toObject?.() || progress.settings || {}, ...val };
-        } else if (['checked', 'dayDone', 'dayActivity', 'dayNotes', 'knowledgeNotes', 'revisionState'].includes(key)) {
-          const existing = mapToObject(progress[key]);
-          progress[key] = { ...existing, ...val };
-          progress.markModified(key);
-        } else {
-          progress[key] = val;
-        }
-      }
-      await progress.save();
-    }
-
+    const progress = await saveProgressUpdate(req.userId, collectUpdate(req.body));
     res.json(serializeProgress(progress));
   } catch (err) {
     console.error(err);
@@ -155,6 +172,7 @@ router.post('/complete-day', authMiddleware, async (req, res) => {
     if (!dayNum) return res.status(400).json({ message: 'dayNum is required' });
 
     const plan = await StudyPlan.findOne({ version: 1 }).lean();
+    if (!plan) return res.status(404).json({ message: 'Study plan not found' });
     const allDays = flattenPlan(plan.weeks);
     const phases = plan.phases;
 
@@ -204,7 +222,12 @@ router.post('/complete-day', authMiddleware, async (req, res) => {
   }
 });
 
-router.post('/notes/upload', authMiddleware, upload.single('file'), async (req, res) => {
+router.post('/notes/upload', authMiddleware, (req, res, next) => {
+  upload.single('file')(req, res, (err) => {
+    if (err) return res.status(400).json({ message: err.message || 'Upload failed' });
+    next();
+  });
+}, async (req, res) => {
   try {
     if (!req.file) return res.status(400).json({ message: 'No file uploaded' });
     const publicBase = (process.env.PUBLIC_URL || '').replace(/\/$/, '');

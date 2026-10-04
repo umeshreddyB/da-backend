@@ -9,6 +9,7 @@ const studyPlanSchema = new mongoose.Schema(
         label: String,
         sub: String,
         cls: String,
+        skillPhaseId: Number,
       },
     ],
     weeks: [
@@ -22,6 +23,8 @@ const studyPlanSchema = new mongoose.Schema(
             lbl: String,
             topic: String,
             practice: Boolean,
+            minutes: Number,
+            phaseName: String,
             tasks: [String],
           },
         ],

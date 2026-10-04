@@ -5,6 +5,7 @@ import { validateEnv } from './config/validateEnv.js';
 import express from 'express';
 import cors from 'cors';
 import { connectDB } from './config/db.js';
+import { ensureStudyPlan } from './seed/dsPlan.js';
 import { syncUserIndexes } from './config/syncIndexes.js';
 import authRoutes from './routes/auth.js';
 import planRoutes from './routes/plan.js';
@@ -18,7 +19,7 @@ validateEnv();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5050;
 const isProd = process.env.NODE_ENV === 'production';
 
 if (isProd) {
@@ -60,6 +61,7 @@ app.use(errorHandler);
 
 connectDB()
   .then(async () => {
+    await ensureStudyPlan();
     await syncUserIndexes();
     app.listen(PORT, '0.0.0.0', () => {
       console.log(`Server running on port ${PORT} (${process.env.NODE_ENV || 'development'})`);
