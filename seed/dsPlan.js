@@ -5,7 +5,7 @@ import StudyPlan from '../models/StudyPlan.js';
 
 const daysPath = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
-  '../../data-science-study/src/data/dsDays.json',
+  'dsDays.json',
 );
 
 export const DS_PHASES = [

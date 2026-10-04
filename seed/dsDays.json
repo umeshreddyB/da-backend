@@ -1,0 +1,4071 @@
+[
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Python 3.12+",
+    "tasks": [
+      "Learn Python 3.12+: Install 3.12 or newer (60 min)",
+      "Rebuild it yourself: Confirm pandas will run (3.11+ required for pandas 3.0) (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: python --version shows 3.12 or newer. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Python 3.12+ · practice",
+    "tasks": [
+      "Cold start: redo Python 3.12+ with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Python 3.12+ fails and how you would check (60 min)",
+      "Exit check: python --version shows 3.12 or newer. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "VS Code and Jupyter",
+    "tasks": [
+      "Learn VS Code and Jupyter: Use notebooks to explore (60 min)",
+      "Rebuild it yourself: Move reused code into modules (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "VS Code and Jupyter · practice",
+    "tasks": [
+      "Cold start: redo VS Code and Jupyter with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when VS Code and Jupyter fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "venv or uv",
+    "tasks": [
+      "Learn venv or uv: Create, activate, and rebuild an environment (60 min)",
+      "Rebuild it yourself: Pin dependencies (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Recreate the environment on a clean folder. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "venv or uv · practice",
+    "tasks": [
+      "Cold start: redo venv or uv with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when venv or uv fails and how you would check (60 min)",
+      "Exit check: Recreate the environment on a clean folder. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "ruff and pytest",
+    "tasks": [
+      "Learn ruff and pytest: Run ruff (60 min)",
+      "Rebuild it yourself: Run pytest (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Command line",
+    "tasks": [
+      "Learn Command line: Navigate, create, and remove files (60 min)",
+      "Rebuild it yourself: Run Python and pip inside the environment (60 min)",
+      "Practice: Rebuild the environment using only the terminal (60 min)",
+      "Exit check: You do not need a GUI to start a project. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Command line · practice",
+    "tasks": [
+      "Cold start: redo Command line with no notes open (60 min)",
+      "Problem set: Rebuild the environment using only the terminal (60 min)",
+      "Write when Command line fails and how you would check (60 min)",
+      "Exit check: You do not need a GUI to start a project. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Git workflow",
+    "tasks": [
+      "Learn Git workflow: Clone, branch, commit, push (60 min)",
+      "Rebuild it yourself: Open and merge a pull request (60 min)",
+      "Practice: Clone, branch, commit, open and merge a pull request on your own repo (60 min)",
+      "Exit check: One merged pull request on the template repository. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Git workflow · practice",
+    "tasks": [
+      "Cold start: redo Git workflow with no notes open (60 min)",
+      "Problem set: Clone, branch, commit, open and merge a pull request on your own repo (60 min)",
+      "Write when Git workflow fails and how you would check (60 min)",
+      "Exit check: One merged pull request on the template repository. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Repository template",
+    "tasks": [
+      "Learn Repository template: README, .gitignore, .env.example (60 min)",
+      "Rebuild it yourself: data/ git-ignored (60 min)",
+      "Practice: Build the template and write a README (60 min)",
+      "Exit check: A stranger could see how the repo is meant to be run. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Repository template · practice",
+    "tasks": [
+      "Cold start: redo Repository template with no notes open (60 min)",
+      "Problem set: Build the template and write a README (60 min)",
+      "Write when Repository template fails and how you would check (60 min)",
+      "Exit check: A stranger could see how the repo is meant to be run. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Learning system",
+    "tasks": [
+      "Learn Learning system: Note-taking (60 min)",
+      "Rebuild it yourself: An error log: mistake, correct reasoning (60 min)",
+      "Practice: Create the error log and write the gap list into the README (60 min)",
+      "Exit check: The error log exists and you know tomorrow’s question. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Learning system · practice",
+    "tasks": [
+      "Cold start: redo Learning system with no notes open (60 min)",
+      "Problem set: Create the error log and write the gap list into the README (60 min)",
+      "Write when Learning system fails and how you would check (60 min)",
+      "Exit check: The error log exists and you know tomorrow’s question. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Honest diagnostics",
+    "tasks": [
+      "Learn Honest diagnostics: Python baseline (60 min)",
+      "Rebuild it yourself: pandas baseline (60 min)",
+      "Practice: Take all five diagnostics and mark what you could not do (60 min)",
+      "Exit check: You have a written baseline. Do not hide weak scores. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 1,
+    "phaseName": "Foundation",
+    "topic": "Honest diagnostics · practice",
+    "tasks": [
+      "Cold start: redo Honest diagnostics with no notes open (60 min)",
+      "Problem set: Take all five diagnostics and mark what you could not do (60 min)",
+      "Write when Honest diagnostics fails and how you would check (60 min)",
+      "Exit check: You have a written baseline. Do not hide weak scores. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Variables, types, operators",
+    "tasks": [
+      "Learn Variables, types, operators: int, float, str, bool (60 min)",
+      "Rebuild it yourself: // versus / (60 min)",
+      "Practice: Type-conversion drills (60 min)",
+      "Exit check: You can convert types and explain a float surprise. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Variables, types, operators · practice",
+    "tasks": [
+      "Cold start: redo Variables, types, operators with no notes open (60 min)",
+      "Problem set: Show that 0.1 + 0.2 is not 0.3 (60 min)",
+      "Write when Variables, types, operators fails and how you would check (60 min)",
+      "Exit check: You can convert types and explain a float surprise. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Conditions and loops",
+    "tasks": [
+      "Learn Conditions and loops: if / elif / else (60 min)",
+      "Rebuild it yourself: for and while (60 min)",
+      "Practice: FizzBuzz variants (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Conditions and loops · practice",
+    "tasks": [
+      "Cold start: redo Conditions and loops with no notes open (60 min)",
+      "Problem set: Nested-loop pattern problems (60 min)",
+      "Write when Conditions and loops fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Functions",
+    "tasks": [
+      "Learn Functions: Parameters, defaults, return values (60 min)",
+      "Rebuild it yourself: *args and **kwargs (60 min)",
+      "Practice: Rewrite notebook cells into functions (60 min)",
+      "Exit check: A function with a docstring, type hints, and no hidden state. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Functions · practice",
+    "tasks": [
+      "Cold start: redo Functions with no notes open (60 min)",
+      "Problem set: Rewrite notebook cells into functions (60 min)",
+      "Write when Functions fails and how you would check (60 min)",
+      "Exit check: A function with a docstring, type hints, and no hidden state. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Scope, LEGB, closures",
+    "tasks": [
+      "Learn Scope, LEGB, closures: Local, enclosing, global, built-in (60 min)",
+      "Rebuild it yourself: nonlocal (60 min)",
+      "Practice: A closure counter (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Recursion",
+    "tasks": [
+      "Learn Recursion: Base case (60 min)",
+      "Rebuild it yourself: Recursion limit (60 min)",
+      "Practice: Factorial (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Exceptions",
+    "tasks": [
+      "Learn Exceptions: try / except / else / finally (60 min)",
+      "Rebuild it yourself: Raising (60 min)",
+      "Practice: Wrap file and network calls (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Exceptions · practice",
+    "tasks": [
+      "Cold start: redo Exceptions with no notes open (60 min)",
+      "Problem set: Validate inputs (60 min)",
+      "Write when Exceptions fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Modules and packages",
+    "tasks": [
+      "Learn Modules and packages: Imports (60 min)",
+      "Rebuild it yourself: if __name__ == '__main__' (60 min)",
+      "Practice: Split a notebook into a small package (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Modules and packages · practice",
+    "tasks": [
+      "Cold start: redo Modules and packages with no notes open (60 min)",
+      "Problem set: Split a notebook into a small package (60 min)",
+      "Write when Modules and packages fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "File handling",
+    "tasks": [
+      "Learn File handling: with (60 min)",
+      "Rebuild it yourself: pathlib (60 min)",
+      "Practice: Parse a messy CSV with the csv module (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "File handling · practice",
+    "tasks": [
+      "Cold start: redo File handling with no notes open (60 min)",
+      "Problem set: Parse a messy CSV with the csv module (60 min)",
+      "Write when File handling fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Lists, tuples, sets, dicts",
+    "tasks": [
+      "Learn Lists, tuples, sets, dicts: Operation complexity: in on a list is O(n), on a set or dict O(1) average (60 min)",
+      "Rebuild it yourself: Hashing (60 min)",
+      "Practice: Word counts (60 min)",
+      "Exit check: You can state the complexity of the structure you chose. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Lists, tuples, sets, dicts · practice",
+    "tasks": [
+      "Cold start: redo Lists, tuples, sets, dicts with no notes open (60 min)",
+      "Problem set: Group-by with dicts (60 min)",
+      "Write when Lists, tuples, sets, dicts fails and how you would check (60 min)",
+      "Exit check: You can state the complexity of the structure you chose. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Comprehensions",
+    "tasks": [
+      "Learn Comprehensions: List, dict, and set comprehensions (60 min)",
+      "Rebuild it yourself: Generator expressions (60 min)",
+      "Practice: Rewrite loops as comprehensions, and know when not to (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Comprehensions · practice",
+    "tasks": [
+      "Cold start: redo Comprehensions with no notes open (60 min)",
+      "Problem set: Rewrite loops as comprehensions, and know when not to (60 min)",
+      "Write when Comprehensions fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Sorting and key=",
+    "tasks": [
+      "Learn Sorting and key=: sorted returns a new list (60 min)",
+      "Rebuild it yourself: key= (60 min)",
+      "Practice: Sort records by multiple fields (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Sorting and key= · practice",
+    "tasks": [
+      "Cold start: redo Sorting and key= with no notes open (60 min)",
+      "Problem set: Sort records by multiple fields (60 min)",
+      "Write when Sorting and key= fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Iterators and generators",
+    "tasks": [
+      "Learn Iterators and generators: Iterators (60 min)",
+      "Rebuild it yourself: yield (60 min)",
+      "Practice: Read a large file line by line (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Decorators",
+    "tasks": [
+      "Learn Decorators: What a decorator is (60 min)",
+      "Rebuild it yourself: functools.wraps (60 min)",
+      "Practice: A timing decorator (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "lambda, map, filter, reduce",
+    "tasks": [
+      "Learn lambda, map, filter, reduce: sorted(..., key=lambda ...) (60 min)",
+      "Rebuild it yourself: Where pandas later uses apply (60 min)",
+      "Practice: Replace a small loop with a lambda, then rewrite it as a named function (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "lambda, map, filter, reduce · practice",
+    "tasks": [
+      "Cold start: redo lambda, map, filter, reduce with no notes open (60 min)",
+      "Problem set: Replace a small loop with a lambda, then rewrite it as a named function (60 min)",
+      "Write when lambda, map, filter, reduce fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "OOP basics",
+    "tasks": [
+      "Learn OOP basics: __init__ and methods (60 min)",
+      "Rebuild it yourself: __repr__ (60 min)",
+      "Practice: A Dataset class with validation (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Dataclasses",
+    "tasks": [
+      "Learn Dataclasses: @dataclass (60 min)",
+      "Rebuild it yourself: field() for mutable defaults (60 min)",
+      "Practice: A config dataclass for a training script (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Type hints",
+    "tasks": [
+      "Learn Type hints: Argument and return annotations (60 min)",
+      "Rebuild it yourself: mypy is optional (60 min)",
+      "Practice: Annotate your project’s public functions (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Virtual environments and packaging",
+    "tasks": [
+      "Learn Virtual environments and packaging: venv or uv (60 min)",
+      "Rebuild it yourself: pip (60 min)",
+      "Practice: Recreate the environment from pyproject.toml or requirements.txt in under 10 minutes (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Virtual environments and packaging · practice",
+    "tasks": [
+      "Cold start: redo Virtual environments and packaging with no notes open (60 min)",
+      "Problem set: Recreate the environment from pyproject.toml or requirements.txt in under 10 minutes (60 min)",
+      "Write when Virtual environments and packaging fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 2,
+    "phaseName": "Python",
+    "topic": "Testing with pytest",
+    "tasks": [
+      "Learn Testing with pytest: pytest (60 min)",
+      "Rebuild it yourself: Fixtures (60 min)",
+      "Practice: Tests for each exercise: top-k words, a log parser, a CSV-cleaning CLI, a Dataset class (60 min)",
+      "Exit check: A function with type hints, a docstring, error handling, and two pytest tests. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "NumPy mental model",
+    "tasks": [
+      "Learn NumPy mental model: Vectorisation means compiled loops (60 min)",
+      "Rebuild it yourself: Basic slicing is a view; boolean and fancy indexing copy (60 min)",
+      "Practice: Explain a view versus a copy on a tiny array (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "NumPy mental model · practice",
+    "tasks": [
+      "Cold start: redo NumPy mental model with no notes open (60 min)",
+      "Problem set: Explain a view versus a copy on a tiny array (60 min)",
+      "Write when NumPy mental model fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "pandas mental model",
+    "tasks": [
+      "Learn pandas mental model: loc is label-based and includes the end; iloc is positional and excludes the end (60 min)",
+      "Rebuild it yourself: Combine masks with &, |, ~ and parentheses (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "pandas mental model · practice",
+    "tasks": [
+      "Cold start: redo pandas mental model with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when pandas mental model fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N1 Arrays and dtypes",
+    "tasks": [
+      "Learn N1 Arrays and dtypes: array, zeros, ones, arange, linspace, eye (60 min)",
+      "Rebuild it yourself: shape, ndim, size, dtype, astype, nbytes (60 min)",
+      "Practice: Compare memory of a 1M-element list versus an array (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N1 Arrays and dtypes · practice",
+    "tasks": [
+      "Cold start: redo N1 Arrays and dtypes with no notes open (60 min)",
+      "Problem set: Show int8 overflow (60 min)",
+      "Write when N1 Arrays and dtypes fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N2 Indexing and slicing",
+    "tasks": [
+      "Learn N2 Indexing and slicing: Basic and negative indexes (60 min)",
+      "Rebuild it yourself: Boolean masks (60 min)",
+      "Practice: Rows with mean above 70 (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N2 Indexing and slicing · practice",
+    "tasks": [
+      "Cold start: redo N2 Indexing and slicing with no notes open (60 min)",
+      "Problem set: Cap outliers (60 min)",
+      "Write when N2 Indexing and slicing fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N3 Vectorisation and ufuncs",
+    "tasks": [
+      "Learn N3 Vectorisation and ufuncs: Arithmetic ufuncs (60 min)",
+      "Rebuild it yourself: exp, log, sqrt (60 min)",
+      "Practice: Z-score a matrix with no loops (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N3 Vectorisation and ufuncs · practice",
+    "tasks": [
+      "Cold start: redo N3 Vectorisation and ufuncs with no notes open (60 min)",
+      "Problem set: Time a loop versus a vectorised pass on 5M elements (60 min)",
+      "Write when N3 Vectorisation and ufuncs fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N4 Aggregation and axis",
+    "tasks": [
+      "Learn N4 Aggregation and axis: sum, mean, std, min, max, argmax, cumsum, percentile (60 min)",
+      "Rebuild it yourself: axis and keepdims (60 min)",
+      "Practice: Column mean and std (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N4 Aggregation and axis · practice",
+    "tasks": [
+      "Cold start: redo N4 Aggregation and axis with no notes open (60 min)",
+      "Problem set: Row-wise argmax (60 min)",
+      "Write when N4 Aggregation and axis fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N5 Broadcasting",
+    "tasks": [
+      "Learn N5 Broadcasting: Shape rules (60 min)",
+      "Rebuild it yourself: newaxis (60 min)",
+      "Practice: Pairwise Euclidean distances with no loops (60 min)",
+      "Exit check: You can predict whether two shapes will broadcast. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N5 Broadcasting · practice",
+    "tasks": [
+      "Cold start: redo N5 Broadcasting with no notes open (60 min)",
+      "Problem set: Standardise columns by broadcasting (60 min)",
+      "Write when N5 Broadcasting fails and how you would check (60 min)",
+      "Exit check: You can predict whether two shapes will broadcast. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N6 Shape manipulation",
+    "tasks": [
+      "Learn N6 Shape manipulation: reshape, ravel, T, swapaxes (60 min)",
+      "Rebuild it yourself: concatenate, stack, vstack, hstack, split (60 min)",
+      "Practice: Reshape a batch (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N6 Shape manipulation · practice",
+    "tasks": [
+      "Cold start: redo N6 Shape manipulation with no notes open (60 min)",
+      "Problem set: Build a feature matrix from column arrays (60 min)",
+      "Write when N6 Shape manipulation fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N7 Random numbers",
+    "tasks": [
+      "Learn N7 Random numbers: default_rng(seed) (60 min)",
+      "Rebuild it yourself: integers, normal, choice, shuffle (60 min)",
+      "Practice: Monte Carlo estimate of π (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N7 Random numbers · practice",
+    "tasks": [
+      "Cold start: redo N7 Random numbers with no notes open (60 min)",
+      "Problem set: 10,000 simulated A/A t-tests and a p-value histogram (60 min)",
+      "Write when N7 Random numbers fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N8 Linear algebra",
+    "tasks": [
+      "Learn N8 Linear algebra: @ (60 min)",
+      "Rebuild it yourself: solve, inv, norm, eig, svd (60 min)",
+      "Practice: Normal equation versus lstsq (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N8 Linear algebra · practice",
+    "tasks": [
+      "Cold start: redo N8 Linear algebra with no notes open (60 min)",
+      "Problem set: A cosine-similarity matrix (60 min)",
+      "Write when N8 Linear algebra fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N9 Missing values and stability",
+    "tasks": [
+      "Learn N9 Missing values and stability: nanmean and related reductions (60 min)",
+      "Rebuild it yourself: log-sum-exp (60 min)",
+      "Practice: A numerically stable softmax (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "N9 Missing values and stability · practice",
+    "tasks": [
+      "Cold start: redo N9 Missing values and stability with no notes open (60 min)",
+      "Problem set: A numerically stable softmax (60 min)",
+      "Write when N9 Missing values and stability fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P1 Series, DataFrame, I/O",
+    "tasks": [
+      "Learn P1 Series, DataFrame, I/O: Construction (60 min)",
+      "Rebuild it yourself: read_csv dtype, parse_dates, usecols (60 min)",
+      "Practice: Load a messy CSV with explicit dtypes and save Parquet (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P1 Series, DataFrame, I/O · practice",
+    "tasks": [
+      "Cold start: redo P1 Series, DataFrame, I/O with no notes open (60 min)",
+      "Problem set: Compare size and read time (60 min)",
+      "Write when P1 Series, DataFrame, I/O fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P2 Indexing and selection",
+    "tasks": [
+      "Learn P2 Indexing and selection: loc and iloc (60 min)",
+      "Rebuild it yourself: Boolean filtering, isin, between, query (60 min)",
+      "Practice: Ten filter questions on a sales table (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P2 Indexing and selection · practice",
+    "tasks": [
+      "Cold start: redo P2 Indexing and selection with no notes open (60 min)",
+      "Problem set: Rewrite a chained assignment with loc (60 min)",
+      "Write when P2 Indexing and selection fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P3 Missing values and duplicates",
+    "tasks": [
+      "Learn P3 Missing values and duplicates: isna().mean() (60 min)",
+      "Rebuild it yourself: fillna constant, median, or group-wise via transform (60 min)",
+      "Practice: A written per-column missing-value policy (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P3 Missing values and duplicates · practice",
+    "tasks": [
+      "Cold start: redo P3 Missing values and duplicates with no notes open (60 min)",
+      "Problem set: Near-duplicates that differ only by case or whitespace (60 min)",
+      "Write when P3 Missing values and duplicates fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P4 Types, strings, datetime",
+    "tasks": [
+      "Learn P4 Types, strings, datetime: astype and to_numeric(errors='coerce') (60 min)",
+      "Rebuild it yourself: to_datetime (60 min)",
+      "Practice: Clean currency, phone, and date columns (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P4 Types, strings, datetime · practice",
+    "tasks": [
+      "Cold start: redo P4 Types, strings, datetime with no notes open (60 min)",
+      "Problem set: Extract email domains (60 min)",
+      "Write when P4 Types, strings, datetime fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P5 groupby, agg, transform, apply",
+    "tasks": [
+      "Learn P5 groupby, agg, transform, apply: Named aggregation (60 min)",
+      "Rebuild it yourself: transform('mean') (60 min)",
+      "Practice: Top-3 products per category (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P5 groupby, agg, transform, apply · practice",
+    "tasks": [
+      "Cold start: redo P5 groupby, agg, transform, apply with no notes open (60 min)",
+      "Problem set: Z-score within group (60 min)",
+      "Write when P5 groupby, agg, transform, apply fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P6 Combining data",
+    "tasks": [
+      "Learn P6 Combining data: concat (60 min)",
+      "Rebuild it yourself: merge how, on, suffixes (60 min)",
+      "Practice: Merge four relational tables (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P6 Combining data · practice",
+    "tasks": [
+      "Cold start: redo P6 Combining data with no notes open (60 min)",
+      "Problem set: Detect row explosion (60 min)",
+      "Write when P6 Combining data fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P7 Reshaping",
+    "tasks": [
+      "Learn P7 Reshaping: pivot and pivot_table (60 min)",
+      "Rebuild it yourself: melt (60 min)",
+      "Practice: Monthly revenue by category, wide (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P7 Reshaping · practice",
+    "tasks": [
+      "Cold start: redo P7 Reshaping with no notes open (60 min)",
+      "Problem set: Melt for plotting (60 min)",
+      "Write when P7 Reshaping fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P8 Time operations",
+    "tasks": [
+      "Learn P8 Time operations: Datetime index (60 min)",
+      "Rebuild it yourself: resample, rolling, expanding, ewm (60 min)",
+      "Practice: 7-day rolling average (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P8 Time operations · practice",
+    "tasks": [
+      "Cold start: redo P8 Time operations with no notes open (60 min)",
+      "Problem set: Month-over-month growth (60 min)",
+      "Write when P8 Time operations fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P9 Categorical data and MultiIndex",
+    "tasks": [
+      "Learn P9 Categorical data and MultiIndex: category dtype and ordered categories (60 min)",
+      "Rebuild it yourself: observed=True (60 min)",
+      "Practice: Convert low-cardinality columns and measure memory (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P10 Performance and style",
+    "tasks": [
+      "Learn P10 Performance and style: Vectorise instead of apply (60 min)",
+      "Rebuild it yourself: np.where and np.select (60 min)",
+      "Practice: Replace a row-wise loop and benchmark (60 min)",
+      "Exit check: Gate 2: an unfamiliar 3-table dataset, cleaned, merged, reshaped, grouped, and 10 questions in 2 hours, without iterrows. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "P10 Performance and style · practice",
+    "tasks": [
+      "Cold start: redo P10 Performance and style with no notes open (60 min)",
+      "Problem set: Speed up a groupby on 5M rows (60 min)",
+      "Write when P10 Performance and style fails and how you would check (60 min)",
+      "Exit check: Gate 2: an unfamiliar 3-table dataset, cleaned, merged, reshaped, grouped, and 10 questions in 2 hours, without iterrows. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "Project 1 · Beginner data analysis",
+    "tasks": [
+      "Frame the decision: Clean a messy survey, compute reliable summaries of pay by region, role, experience, and technology, and state what the data cannot tell you. (60 min)",
+      "Use the real dataset: A university career office wants evidence-based guidance about skills and pay, without promising causation. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "Project 1 · Beginner data analysis",
+    "tasks": [
+      "Get the data: Stack Overflow Annual Developer Survey (latest public year; check the licence). Alternative: NYC 311 service requests. (60 min)",
+      "Use the real dataset: pandas cleaning; multi-select columns with split and explode; groupby; Matplotlib or Seaborn; descriptive statistics; bias. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "Project 1 · Beginner data analysis",
+    "tasks": [
+      "Analyse: Technology flags; currency and outliers; experience bands; medians with bootstrap intervals; sample sizes. (60 min)",
+      "Use the real dataset: Means of skewed pay; ignoring currency and country; causal claims; no sample sizes; twenty pointless charts. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "Project 1 · Beginner data analysis",
+    "tasks": [
+      "Model and evaluate: None required. Optional: a simple log-salary regression for interpretation. (60 min)",
+      "Use the real dataset: Robustness: median versus mean, with and without outliers, minimum group size. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "Project 1 · Beginner data analysis",
+    "tasks": [
+      "Ship a result: A notebook report or GitHub Pages, plus a one-page memo. (60 min)",
+      "Use the real dataset: 01_clean, 02_eda, a data dictionary, and a cleaning-decisions log. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 3,
+    "phaseName": "NumPy & pandas",
+    "topic": "Project 1 · Beginner data analysis",
+    "tasks": [
+      "Portfolio pass: Careful cleaning, honest caveats, charts titled with insights. (60 min)",
+      "Use the real dataset: A section on what this cannot tell you; repeat for two survey years; a short post. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "SELECT, WHERE, ORDER BY, LIMIT, DISTINCT",
+    "tasks": [
+      "Learn SELECT, WHERE, ORDER BY, LIMIT, DISTINCT: SELECT, WHERE, ORDER BY, LIMIT, DISTINCT (60 min)",
+      "Rebuild it yourself: You cannot use a SELECT alias in WHERE (60 min)",
+      "Practice: Beginner problems B1–B5 (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "SELECT, WHERE, ORDER BY, LIMIT, DISTINCT · practice",
+    "tasks": [
+      "Cold start: redo SELECT, WHERE, ORDER BY, LIMIT, DISTINCT with no notes open (60 min)",
+      "Problem set: Beginner problems B1–B5 (60 min)",
+      "Write when SELECT, WHERE, ORDER BY, LIMIT, DISTINCT fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "GROUP BY, HAVING, aggregates",
+    "tasks": [
+      "Learn GROUP BY, HAVING, aggregates: COUNT(*) versus COUNT(col) versus COUNT(DISTINCT col) (60 min)",
+      "Rebuild it yourself: WHERE filters rows; HAVING filters groups (60 min)",
+      "Practice: B2, B3, B5, B7, B8 (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "GROUP BY, HAVING, aggregates · practice",
+    "tasks": [
+      "Cold start: redo GROUP BY, HAVING, aggregates with no notes open (60 min)",
+      "Problem set: B2, B3, B5, B7, B8 (60 min)",
+      "Write when GROUP BY, HAVING, aggregates fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "CASE and conditional aggregation",
+    "tasks": [
+      "Learn CASE and conditional aggregation: SUM(CASE WHEN … THEN 1 ELSE 0 END) (60 min)",
+      "Rebuild it yourself: FILTER (WHERE …) in Postgres (60 min)",
+      "Practice: B10 (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "CASE and conditional aggregation · practice",
+    "tasks": [
+      "Cold start: redo CASE and conditional aggregation with no notes open (60 min)",
+      "Problem set: Revenue by category with months as columns (60 min)",
+      "Write when CASE and conditional aggregation fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "NULL handling",
+    "tasks": [
+      "Learn NULL handling: Three-valued logic (60 min)",
+      "Rebuild it yourself: IS NULL (60 min)",
+      "Practice: Orders with no payment (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "NULL handling · practice",
+    "tasks": [
+      "Cold start: redo NULL handling with no notes open (60 min)",
+      "Problem set: Orders with no payment (60 min)",
+      "Write when NULL handling fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Joins",
+    "tasks": [
+      "Learn Joins: Inner, left, right, full, cross, self (60 min)",
+      "Rebuild it yourself: Anti-join: LEFT JOIN … WHERE right key IS NULL (60 min)",
+      "Practice: Eight join problems (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Joins · practice",
+    "tasks": [
+      "Cold start: redo Joins with no notes open (60 min)",
+      "Problem set: Reconcile totals against pandas (60 min)",
+      "Write when Joins fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Subqueries",
+    "tasks": [
+      "Learn Subqueries: Scalar, correlated, IN versus EXISTS (60 min)",
+      "Rebuild it yourself: Derived tables (60 min)",
+      "Practice: Customers whose spend exceeds the average (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Subqueries · practice",
+    "tasks": [
+      "Cold start: redo Subqueries with no notes open (60 min)",
+      "Problem set: Customers whose spend exceeds the average (60 min)",
+      "Write when Subqueries fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "CTEs",
+    "tasks": [
+      "Learn CTEs: Readable step pipelines (60 min)",
+      "Rebuild it yourself: Recursive CTEs for hierarchies and date series (60 min)",
+      "Practice: Intermediate I1–I3 (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "CTEs · practice",
+    "tasks": [
+      "Cold start: redo CTEs with no notes open (60 min)",
+      "Problem set: A recursive date series (60 min)",
+      "Write when CTEs fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Window functions",
+    "tasks": [
+      "Learn Window functions: ROW_NUMBER, RANK, DENSE_RANK, NTILE (60 min)",
+      "Rebuild it yourself: LAG and LEAD (60 min)",
+      "Practice: I7 month-over-month (60 min)",
+      "Exit check: You can explain the frame before you run the query. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Window functions · practice",
+    "tasks": [
+      "Cold start: redo Window functions with no notes open (60 min)",
+      "Problem set: I8 top 3 per category (60 min)",
+      "Write when Window functions fails and how you would check (60 min)",
+      "Exit check: You can explain the frame before you run the query. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Date functions",
+    "tasks": [
+      "Learn Date functions: DATE_TRUNC, EXTRACT, intervals (60 min)",
+      "Rebuild it yourself: generate_series (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Date functions · practice",
+    "tasks": [
+      "Cold start: redo Date functions with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Date functions fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "String functions",
+    "tasks": [
+      "Learn String functions: LIKE and ILIKE (60 min)",
+      "Rebuild it yourself: SUBSTRING, SPLIT_PART, regex, TRIM, CONCAT (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "String functions · practice",
+    "tasks": [
+      "Cold start: redo String functions with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when String functions fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Set operations",
+    "tasks": [
+      "Learn Set operations: UNION versus UNION ALL (60 min)",
+      "Rebuild it yourself: INTERSECT (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Set operations · practice",
+    "tasks": [
+      "Cold start: redo Set operations with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Set operations fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Analytical SQL",
+    "tasks": [
+      "Learn Analytical SQL: Top-N per group (60 min)",
+      "Rebuild it yourself: Running totals (60 min)",
+      "Practice: A1–A10 (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Analytical SQL · practice",
+    "tasks": [
+      "Cold start: redo Analytical SQL with no notes open (60 min)",
+      "Problem set: R1–R6: revenue drop, RFM, delivery SLA, promotion lift, stock cover, a daily KPI view (60 min)",
+      "Write when Analytical SQL fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Query optimisation",
+    "tasks": [
+      "Learn Query optimisation: EXPLAIN (ANALYZE) (60 min)",
+      "Rebuild it yourself: Sargable predicates (60 min)",
+      "Practice: Q8: this query is slow (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Index basics",
+    "tasks": [
+      "Learn Index basics: B-tree (60 min)",
+      "Rebuild it yourself: Composite indexes and the left-most prefix (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Transactions",
+    "tasks": [
+      "Learn Transactions: ACID (60 min)",
+      "Rebuild it yourself: BEGIN, COMMIT, ROLLBACK (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 4,
+    "phaseName": "SQL",
+    "topic": "Warehouses and modelling",
+    "tasks": [
+      "Learn Warehouses and modelling: Keys and constraints (60 min)",
+      "Rebuild it yourself: 1NF–3NF (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Arithmetic, ratios, percentages",
+    "tasks": [
+      "Learn Arithmetic, ratios, percentages: Rates (60 min)",
+      "Rebuild it yourself: Percent change versus percentage points (60 min)",
+      "Practice: 4.0% to 4.4% is +0.4 percentage points and +10% relative (60 min)",
+      "Exit check: Fluent without a calculator for simple cases. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Arithmetic, ratios, percentages · practice",
+    "tasks": [
+      "Cold start: redo Arithmetic, ratios, percentages with no notes open (60 min)",
+      "Problem set: 4.0% to 4.4% is +0.4 percentage points and +10% relative (60 min)",
+      "Write when Arithmetic, ratios, percentages fails and how you would check (60 min)",
+      "Exit check: Fluent without a calculator for simple cases. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Algebra",
+    "tasks": [
+      "Learn Algebra: Rearranging equations (60 min)",
+      "Rebuild it yourself: Inequalities (60 min)",
+      "Practice: Solve for slope and intercept from two points (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Algebra · practice",
+    "tasks": [
+      "Cold start: redo Algebra with no notes open (60 min)",
+      "Problem set: Solve for slope and intercept from two points (60 min)",
+      "Write when Algebra fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Functions",
+    "tasks": [
+      "Learn Functions: Linear, polynomial, exponential, logarithmic, sigmoid (60 min)",
+      "Rebuild it yourself: reproduce the core example with the tutorial closed (60 min)",
+      "Practice: Sketch a sigmoid and say what it does to log-odds (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Functions · practice",
+    "tasks": [
+      "Cold start: redo Functions with no notes open (60 min)",
+      "Problem set: Sketch a sigmoid and say what it does to log-odds (60 min)",
+      "Write when Functions fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Exponents and logarithms",
+    "tasks": [
+      "Learn Exponents and logarithms: log(ab) = log a + log b (60 min)",
+      "Rebuild it yourself: log undoes exp (60 min)",
+      "Practice: Explain a log transform of revenue (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Exponents and logarithms · practice",
+    "tasks": [
+      "Cold start: redo Exponents and logarithms with no notes open (60 min)",
+      "Problem set: Explain a log transform of revenue (60 min)",
+      "Write when Exponents and logarithms fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Counting",
+    "tasks": [
+      "Learn Counting: Permutations and combinations (60 min)",
+      "Rebuild it yourself: reproduce the core example with the tutorial closed (60 min)",
+      "Practice: Ways to pick 3 features from 10 (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Counting · practice",
+    "tasks": [
+      "Cold start: redo Counting with no notes open (60 min)",
+      "Problem set: Ways to pick 3 features from 10 (60 min)",
+      "Write when Counting fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Basic probability",
+    "tasks": [
+      "Learn Basic probability: Events (60 min)",
+      "Rebuild it yourself: Independence (60 min)",
+      "Practice: A test that is 99% accurate at 1% prevalence: most positives are false (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Basic probability · practice",
+    "tasks": [
+      "Cold start: redo Basic probability with no notes open (60 min)",
+      "Problem set: A test that is 99% accurate at 1% prevalence: most positives are false (60 min)",
+      "Write when Basic probability fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Mean, median, mode",
+    "tasks": [
+      "Learn Mean, median, mode: mean = Σx/n (60 min)",
+      "Rebuild it yourself: Median (60 min)",
+      "Practice: Report median order value when a few huge orders exist (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Mean, median, mode · practice",
+    "tasks": [
+      "Cold start: redo Mean, median, mode with no notes open (60 min)",
+      "Problem set: Report median order value when a few huge orders exist (60 min)",
+      "Write when Mean, median, mode fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Variance and standard deviation",
+    "tasks": [
+      "Learn Variance and standard deviation: Population versus sample (divide by n−1) (60 min)",
+      "Rebuild it yourself: pandas std uses ddof=1; NumPy defaults to ddof=0 (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Variance and standard deviation · practice",
+    "tasks": [
+      "Cold start: redo Variance and standard deviation with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Variance and standard deviation fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Percentiles, quartiles, IQR, outliers",
+    "tasks": [
+      "Learn Percentiles, quartiles, IQR, outliers: IQR (60 min)",
+      "Rebuild it yourself: Tukey fences (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Percentiles, quartiles, IQR, outliers · practice",
+    "tasks": [
+      "Cold start: redo Percentiles, quartiles, IQR, outliers with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Percentiles, quartiles, IQR, outliers fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Random variables, PMF, PDF, CDF",
+    "tasks": [
+      "Learn Random variables, PMF, PDF, CDF: PMF, PDF, CDF (60 min)",
+      "Rebuild it yourself: Expectation (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Random variables, PMF, PDF, CDF · practice",
+    "tasks": [
+      "Cold start: redo Random variables, PMF, PDF, CDF with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Random variables, PMF, PDF, CDF fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Distributions",
+    "tasks": [
+      "Learn Distributions: Normal and the 68–95–99.7 rule (60 min)",
+      "Rebuild it yourself: Binomial (60 min)",
+      "Practice: Daily tickets as Poisson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Distributions · practice",
+    "tasks": [
+      "Cold start: redo Distributions with no notes open (60 min)",
+      "Problem set: Why log-transform revenue (60 min)",
+      "Write when Distributions fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Sampling and the CLT",
+    "tasks": [
+      "Learn Sampling and the CLT: Standard error = σ/√n (60 min)",
+      "Rebuild it yourself: The CLT does not require a normal population (60 min)",
+      "Practice: Simulate means of a skewed distribution (60 min)",
+      "Exit check: You can say what the CLT does and does not claim. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Sampling and the CLT · practice",
+    "tasks": [
+      "Cold start: redo Sampling and the CLT with no notes open (60 min)",
+      "Problem set: Simulate means of a skewed distribution (60 min)",
+      "Write when Sampling and the CLT fails and how you would check (60 min)",
+      "Exit check: You can say what the CLT does and does not claim. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Confidence intervals",
+    "tasks": [
+      "Learn Confidence intervals: A 95% procedure captures the true value in 95% of repetitions (60 min)",
+      "Rebuild it yourself: A single interval either contains it or it does not (60 min)",
+      "Practice: Bootstrap a CI for a median (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Confidence intervals · practice",
+    "tasks": [
+      "Cold start: redo Confidence intervals with no notes open (60 min)",
+      "Problem set: Bootstrap a CI for a median (60 min)",
+      "Write when Confidence intervals fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Hypothesis testing and p-values",
+    "tasks": [
+      "Learn Hypothesis testing and p-values: H0 and H1 (60 min)",
+      "Rebuild it yourself: A p-value is not the probability that H0 is true (60 min)",
+      "Practice: 10,000 A/A tests: about 5% look significant (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Hypothesis testing and p-values · practice",
+    "tasks": [
+      "Cold start: redo Hypothesis testing and p-values with no notes open (60 min)",
+      "Problem set: ttest_ind, chi-square, Mann-Whitney, a two-proportion z-test (60 min)",
+      "Write when Hypothesis testing and p-values fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Type I, Type II, power, effect size",
+    "tasks": [
+      "Learn Type I, Type II, power, effect size: α, β, power = 1−β (60 min)",
+      "Rebuild it yourself: Sample size depends on effect, variance, α, and power (60 min)",
+      "Practice: Show peeking inflation by simulation (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Type I, Type II, power, effect size · practice",
+    "tasks": [
+      "Cold start: redo Type I, Type II, power, effect size with no notes open (60 min)",
+      "Problem set: A power curve (60 min)",
+      "Write when Type I, Type II, power, effect size fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Multiple comparisons",
+    "tasks": [
+      "Learn Multiple comparisons: Bonferroni (60 min)",
+      "Rebuild it yourself: Benjamini–Hochberg (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Vectors",
+    "tasks": [
+      "Learn Vectors: Add, scale, dot product, norm (60 min)",
+      "Rebuild it yourself: Cosine similarity (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Vectors · practice",
+    "tasks": [
+      "Cold start: redo Vectors with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Vectors fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Matrices",
+    "tasks": [
+      "Learn Matrices: Shapes must agree (60 min)",
+      "Rebuild it yourself: Matrix multiplication (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Matrices · practice",
+    "tasks": [
+      "Cold start: redo Matrices with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Matrices fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Derivatives",
+    "tasks": [
+      "Learn Derivatives: Slope (60 min)",
+      "Rebuild it yourself: Polynomials, exp, log, sigmoid (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Derivatives · practice",
+    "tasks": [
+      "Cold start: redo Derivatives with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Derivatives fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Optimisation intuition",
+    "tasks": [
+      "Learn Optimisation intuition: Learning rate (60 min)",
+      "Rebuild it yourself: Local versus global minimum (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Correlation and covariance",
+    "tasks": [
+      "Learn Correlation and covariance: Pearson and Spearman (60 min)",
+      "Rebuild it yourself: Correlation is not causation (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Correlation and covariance · practice",
+    "tasks": [
+      "Cold start: redo Correlation and covariance with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Correlation and covariance fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Linear regression (OLS)",
+    "tasks": [
+      "Learn Linear regression (OLS): Minimising squared error (60 min)",
+      "Rebuild it yourself: Linearity, independent errors, constant variance, no perfect collinearity (60 min)",
+      "Practice: Fit OLS and interpret every row (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Linear regression (OLS) · practice",
+    "tasks": [
+      "Cold start: redo Linear regression (OLS) with no notes open (60 min)",
+      "Problem set: Fit OLS and interpret every row (60 min)",
+      "Write when Linear regression (OLS) fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "A/B testing",
+    "tasks": [
+      "Learn A/B testing: One primary metric chosen before launch (60 min)",
+      "Rebuild it yourself: Sample size fixed in advance (60 min)",
+      "Practice: Hillstrom email data (60 min)",
+      "Exit check: Gate 4’s one-page recommendation. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "A/B testing · practice",
+    "tasks": [
+      "Cold start: redo A/B testing with no notes open (60 min)",
+      "Problem set: A sample-size calculation checked against simulation (60 min)",
+      "Write when A/B testing fails and how you would check (60 min)",
+      "Exit check: Gate 4’s one-page recommendation. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Bayesian basics",
+    "tasks": [
+      "Learn Bayesian basics: Beta-Binomial for a conversion rate (60 min)",
+      "Rebuild it yourself: Prior, likelihood, posterior (60 min)",
+      "Practice: Update a click-through rate after 20 clicks in 400 views (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Causal inference basics",
+    "tasks": [
+      "Learn Causal inference basics: Confounding and DAGs (60 min)",
+      "Rebuild it yourself: Difference-in-differences (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Partial derivatives and gradients",
+    "tasks": [
+      "Learn Partial derivatives and gradients: Gradient of MSE and log-loss (60 min)",
+      "Rebuild it yourself: reproduce the core example with the tutorial closed (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Gradient descent",
+    "tasks": [
+      "Learn Gradient descent: Batch, mini-batch, SGD, momentum, Adam (60 min)",
+      "Rebuild it yourself: reproduce the core example with the tutorial closed (60 min)",
+      "Practice: Fit logistic regression in about 30 lines of NumPy (60 min)",
+      "Exit check: Implement it from scratch once. This is the target. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Gradient descent · practice",
+    "tasks": [
+      "Cold start: redo Gradient descent with no notes open (60 min)",
+      "Problem set: Fit logistic regression in about 30 lines of NumPy (60 min)",
+      "Write when Gradient descent fails and how you would check (60 min)",
+      "Exit check: Implement it from scratch once. This is the target. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Eigenvalues, SVD, PCA idea",
+    "tasks": [
+      "Learn Eigenvalues, SVD, PCA idea: PCA as eigenvectors of the covariance, ordered by variance explained (60 min)",
+      "Rebuild it yourself: reproduce the core example with the tutorial closed (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Convexity, MLE, information theory, bias-variance, Bayesian thinking",
+    "tasks": [
+      "Learn Convexity, MLE, information theory, bias-variance, Bayesian thinking: Convex loss has one global minimum (60 min)",
+      "Rebuild it yourself: Logistic loss is negative log-likelihood (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 5,
+    "phaseName": "Statistics & mathematics",
+    "topic": "Maths level 4, optional",
+    "tasks": [
+      "Learn Maths level 4, optional: Lagrange multipliers and KKT (60 min)",
+      "Rebuild it yourself: Measure-theoretic probability (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Understand the table",
+    "tasks": [
+      "Learn Understand the table: Grain, keys, units, definitions (60 min)",
+      "Rebuild it yourself: Who collected it, how, and when (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Understand the table · practice",
+    "tasks": [
+      "Cold start: redo Understand the table with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Understand the table fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Quality checks",
+    "tasks": [
+      "Learn Quality checks: Missingness: how much, where, and why (60 min)",
+      "Rebuild it yourself: Duplicates and keys (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Quality checks · practice",
+    "tasks": [
+      "Cold start: redo Quality checks with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Quality checks fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Cleaning policy",
+    "tasks": [
+      "Learn Cleaning policy: Pure functions (60 min)",
+      "Rebuild it yourself: A written missing-value policy (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Cleaning policy · practice",
+    "tasks": [
+      "Cold start: redo Cleaning policy with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Cleaning policy fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Univariate EDA",
+    "tasks": [
+      "Learn Univariate EDA: Shape, skew, spread, cardinality (60 min)",
+      "Rebuild it yourself: reproduce the core example with the tutorial closed (60 min)",
+      "Practice: Histograms, describe, nunique (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Univariate EDA · practice",
+    "tasks": [
+      "Cold start: redo Univariate EDA with no notes open (60 min)",
+      "Problem set: Histograms, describe, nunique (60 min)",
+      "Write when Univariate EDA fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Bivariate EDA",
+    "tasks": [
+      "Learn Bivariate EDA: Relation to the target and to other columns (60 min)",
+      "Rebuild it yourself: Segmented relationships (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Bivariate EDA · practice",
+    "tasks": [
+      "Cold start: redo Bivariate EDA with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Bivariate EDA fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Time structure",
+    "tasks": [
+      "Learn Time structure: Trends, seasonality, definition changes (60 min)",
+      "Rebuild it yourself: reproduce the core example with the tutorial closed (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Time structure · practice",
+    "tasks": [
+      "Cold start: redo Time structure with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Time structure fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Leakage and bias during EDA",
+    "tasks": [
+      "Learn Leakage and bias during EDA: Could this column exist at prediction time? (60 min)",
+      "Rebuild it yourself: Selection, survivorship, measurement, label, and historical bias (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Leakage and bias during EDA · practice",
+    "tasks": [
+      "Cold start: redo Leakage and bias during EDA with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Leakage and bias during EDA fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Business insight",
+    "tasks": [
+      "Learn Business insight: So what, and what would change (60 min)",
+      "Rebuild it yourself: A range, not false precision (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Business insight · practice",
+    "tasks": [
+      "Cold start: redo Business insight with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Business insight fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Bar, histogram, box, violin",
+    "tasks": [
+      "Learn Bar, histogram, box, violin: Bars start at zero (60 min)",
+      "Rebuild it yourself: Histograms: try several bin widths (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Bar, histogram, box, violin · practice",
+    "tasks": [
+      "Cold start: redo Bar, histogram, box, violin with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Bar, histogram, box, violin fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Scatter, line, heatmap, area, map",
+    "tasks": [
+      "Learn Scatter, line, heatmap, area, map: Transparency or hexbin for large scatters (60 min)",
+      "Rebuild it yourself: At most 4 or 5 lines (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Scatter, line, heatmap, area, map · practice",
+    "tasks": [
+      "Cold start: redo Scatter, line, heatmap, area, map with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Scatter, line, heatmap, area, map fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Dashboards",
+    "tasks": [
+      "Learn Dashboards: Monitoring known KPIs, not open questions (60 min)",
+      "Rebuild it yourself: One BI tool at a basic level (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Design rules",
+    "tasks": [
+      "Learn Design rules: Insight titles (60 min)",
+      "Rebuild it yourself: Units (60 min)",
+      "Practice: Redraw five poor charts (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Design rules · practice",
+    "tasks": [
+      "Cold start: redo Design rules with no notes open (60 min)",
+      "Problem set: Redraw five poor charts (60 min)",
+      "Write when Design rules fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Storytelling and memos",
+    "tasks": [
+      "Learn Storytelling and memos: Answer first (60 min)",
+      "Rebuild it yourself: At most three findings (60 min)",
+      "Practice: Three one-page memos (60 min)",
+      "Exit check: Gate 5. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Storytelling and memos · practice",
+    "tasks": [
+      "Cold start: redo Storytelling and memos with no notes open (60 min)",
+      "Problem set: A three-minute explanation to a non-technical friend (60 min)",
+      "Write when Storytelling and memos fails and how you would check (60 min)",
+      "Exit check: Gate 5. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Problem-framing canvas",
+    "tasks": [
+      "Learn Problem-framing canvas: Decision, decider, action (60 min)",
+      "Rebuild it yourself: Metric and current baseline (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Problem-framing canvas · practice",
+    "tasks": [
+      "Cold start: redo Problem-framing canvas with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Problem-framing canvas fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "KPIs and guardrails",
+    "tasks": [
+      "Learn KPIs and guardrails: Leading versus lagging (60 min)",
+      "Rebuild it yourself: North-star plus guardrails (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "KPIs and guardrails · practice",
+    "tasks": [
+      "Cold start: redo KPIs and guardrails with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when KPIs and guardrails fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "When not to use a model",
+    "tasks": [
+      "Learn When not to use a model: A rule may be enough (60 min)",
+      "Rebuild it yourself: No action, no model (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "When not to use a model · practice",
+    "tasks": [
+      "Cold start: redo When not to use a model with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when When not to use a model fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "One dataset, many questions",
+    "tasks": [
+      "Learn One dataset, many questions: The same orders table can be a forecast, a retention rank, a delay analysis, or a seller score (60 min)",
+      "Rebuild it yourself: Each question changes the metric and the split (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "One dataset, many questions · practice",
+    "tasks": [
+      "Cold start: redo One dataset, many questions with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when One dataset, many questions fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Project 2 · EDA + SQL + visualization",
+    "tasks": [
+      "Frame the decision: Find why some orders are late and get 1-star reviews, quantify the impact, and build a SQL layer and a dashboard. (60 min)",
+      "Use the real dataset: An operations head wants fewer late deliveries and negative reviews. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Project 2 · EDA + SQL + visualization",
+    "tasks": [
+      "Get the data: Olist Brazilian E-Commerce: about 100k orders across 9 tables. Check the licence. (60 min)",
+      "Use the real dataset: PostgreSQL or DuckDB; joins without fan-out; CTEs and windows; cohorts; a dashboard. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Project 2 · EDA + SQL + visualization",
+    "tasks": [
+      "Analyse: Delay versus promise; seller, region, category; freight-to-price; review versus delay; repeat cohorts; seller scorecards with a minimum volume; RFM. (60 min)",
+      "Use the real dataset: Fan-out; cancelled orders left in; averages over tiny sellers; undefined KPIs. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Project 2 · EDA + SQL + visualization",
+    "tasks": [
+      "Model and evaluate: Optional: a simple logistic model for a 1-star review, explained. (60 min)",
+      "Use the real dataset: Reconcile SQL totals with source tables; test how sensitive the conclusion is. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Project 2 · EDA + SQL + visualization",
+    "tasks": [
+      "Ship a result: A hosted dashboard, a sql/ folder of numbered queries, and a memo. (60 min)",
+      "Use the real dataset: Schema diagram and a KPI dictionary. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 6,
+    "phaseName": "EDA & visualisation",
+    "topic": "Project 2 · EDA + SQL + visualization",
+    "tasks": [
+      "Portfolio pass: Windows, cohorts, a data model, and a business frame. (60 min)",
+      "Use the real dataset: Reconciliation checks, anomaly alerts, savings with explicit assumptions. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "What ML is",
+    "tasks": [
+      "Learn What ML is: Supervised versus unsupervised (60 min)",
+      "Rebuild it yourself: Regression versus classification (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "What ML is · practice",
+    "tasks": [
+      "Cold start: redo What ML is with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when What ML is fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Train, validation, test",
+    "tasks": [
+      "Learn Train, validation, test: Train fits (60 min)",
+      "Rebuild it yourself: Validation chooses (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Train, validation, test · practice",
+    "tasks": [
+      "Cold start: redo Train, validation, test with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Train, validation, test fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Baselines first",
+    "tasks": [
+      "Learn Baselines first: Mean or median (60 min)",
+      "Rebuild it yourself: Majority class (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Baselines first · practice",
+    "tasks": [
+      "Cold start: redo Baselines first with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Baselines first fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Bias, variance, learning curves",
+    "tasks": [
+      "Learn Bias, variance, learning curves: Overfit: high train, low validation (60 min)",
+      "Rebuild it yourself: Underfit: both low (60 min)",
+      "Practice: Plot learning curves (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Bias, variance, learning curves · practice",
+    "tasks": [
+      "Cold start: redo Bias, variance, learning curves with no notes open (60 min)",
+      "Problem set: Plot learning curves (60 min)",
+      "Write when Bias, variance, learning curves fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Linear regression",
+    "tasks": [
+      "Learn Linear regression: Squared error (60 min)",
+      "Rebuild it yourself: Closed form and gradient descent (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Linear regression · practice",
+    "tasks": [
+      "Cold start: redo Linear regression with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Linear regression fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Polynomial features",
+    "tasks": [
+      "Learn Polynomial features: Still linear in the parameters (60 min)",
+      "Rebuild it yourself: Put PolynomialFeatures and Ridge in a Pipeline (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Ridge, Lasso, Elastic Net",
+    "tasks": [
+      "Learn Ridge, Lasso, Elastic Net: L2 shrinks, L1 can zero out (60 min)",
+      "Rebuild it yourself: Scale first (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Ridge, Lasso, Elastic Net · practice",
+    "tasks": [
+      "Cold start: redo Ridge, Lasso, Elastic Net with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Ridge, Lasso, Elastic Net fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Logistic regression",
+    "tasks": [
+      "Learn Logistic regression: Log-loss (60 min)",
+      "Rebuild it yourself: Log-odds (60 min)",
+      "Practice: Implement with gradient descent in NumPy (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Logistic regression · practice",
+    "tasks": [
+      "Cold start: redo Logistic regression with no notes open (60 min)",
+      "Problem set: Implement with gradient descent in NumPy (60 min)",
+      "Write when Logistic regression fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "K-nearest neighbours",
+    "tasks": [
+      "Learn K-nearest neighbours: Scale features (60 min)",
+      "Rebuild it yourself: k (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Naive Bayes",
+    "tasks": [
+      "Learn Naive Bayes: Conditional independence assumption (60 min)",
+      "Rebuild it yourself: Fast text baseline (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Decision trees",
+    "tasks": [
+      "Learn Decision trees: Gini or entropy (60 min)",
+      "Rebuild it yourself: Depth and leaf size (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Decision trees · practice",
+    "tasks": [
+      "Cold start: redo Decision trees with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Decision trees fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Random forest",
+    "tasks": [
+      "Learn Random forest: Bagging and feature subsampling (60 min)",
+      "Rebuild it yourself: Out-of-bag score (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Random forest · practice",
+    "tasks": [
+      "Cold start: redo Random forest with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Random forest fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Support vector machines",
+    "tasks": [
+      "Learn Support vector machines: Margin, C, kernel, gamma (60 min)",
+      "Rebuild it yourself: Scale features (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "K-Means",
+    "tasks": [
+      "Learn K-Means: Iterative assignment (60 min)",
+      "Rebuild it yourself: Scale, choose k, check that segments are actionable (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "K-Means · practice",
+    "tasks": [
+      "Cold start: redo K-Means with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when K-Means fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "PCA",
+    "tasks": [
+      "Learn PCA: Variance directions (60 min)",
+      "Rebuild it yourself: Standardise (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "PCA · practice",
+    "tasks": [
+      "Cold start: redo PCA with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when PCA fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Hierarchical clustering",
+    "tasks": [
+      "Learn Hierarchical clustering: Linkage and a dendrogram (60 min)",
+      "Rebuild it yourself: Poor for large n (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "DBSCAN",
+    "tasks": [
+      "Learn DBSCAN: Density and noise (60 min)",
+      "Rebuild it yourself: eps, min_samples (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Point-in-time correctness",
+    "tasks": [
+      "Learn Point-in-time correctness: Only data from before the prediction timestamp (60 min)",
+      "Rebuild it yourself: reproduce the core example with the tutorial closed (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: A feature-availability table. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Point-in-time correctness · practice",
+    "tasks": [
+      "Cold start: redo Point-in-time correctness with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Point-in-time correctness fails and how you would check (60 min)",
+      "Exit check: A feature-availability table. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Data leakage",
+    "tasks": [
+      "Learn Data leakage: Target leakage (60 min)",
+      "Rebuild it yourself: Preprocessing leakage (60 min)",
+      "Practice: Create a leak, fix it, record the score change (60 min)",
+      "Exit check: You can show the score change. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Data leakage · practice",
+    "tasks": [
+      "Cold start: redo Data leakage with no notes open (60 min)",
+      "Problem set: Create a leak, fix it, record the score change (60 min)",
+      "Write when Data leakage fails and how you would check (60 min)",
+      "Exit check: You can show the score change. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Classification metrics",
+    "tasks": [
+      "Learn Classification metrics: Confusion matrix (60 min)",
+      "Rebuild it yourself: Accuracy on imbalance (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Classification metrics · practice",
+    "tasks": [
+      "Cold start: redo Classification metrics with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Classification metrics fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Regression metrics",
+    "tasks": [
+      "Learn Regression metrics: MAE, RMSE, R² (60 min)",
+      "Rebuild it yourself: MAPE near zero (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Regression metrics · practice",
+    "tasks": [
+      "Cold start: redo Regression metrics with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Regression metrics fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Metric for the decision",
+    "tasks": [
+      "Learn Metric for the decision: Fraud: PR-AUC and recall at a budget (60 min)",
+      "Rebuild it yourself: Churn: lift in the top decile (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Metric for the decision · practice",
+    "tasks": [
+      "Cold start: redo Metric for the decision with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Metric for the decision fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Validation strategies",
+    "tasks": [
+      "Learn Validation strategies: K-fold with a spread (60 min)",
+      "Rebuild it yourself: Stratified (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Validation strategies · practice",
+    "tasks": [
+      "Cold start: redo Validation strategies with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Validation strategies fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Tuning",
+    "tasks": [
+      "Learn Tuning: Grid, random search, then Optuna (60 min)",
+      "Rebuild it yourself: Tune inside CV (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Pipelines",
+    "tasks": [
+      "Learn Pipelines: ColumnTransformer and Pipeline (60 min)",
+      "Rebuild it yourself: Fit only on training folds (60 min)",
+      "Practice: Baseline versus model with a confidence interval (60 min)",
+      "Exit check: Gate 6. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Pipelines · practice",
+    "tasks": [
+      "Cold start: redo Pipelines with no notes open (60 min)",
+      "Problem set: Baseline versus model with a confidence interval (60 min)",
+      "Write when Pipelines fails and how you would check (60 min)",
+      "Exit check: Gate 6. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 3 · Statistics / A-B testing",
+    "tasks": [
+      "Frame the decision: Analyse a randomised email campaign, design a follow-up, and simulate the classic mistakes. (60 min)",
+      "Use the real dataset: Marketing asks whether to send email, to whom, and how long the next test should run. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 3 · Statistics / A-B testing",
+    "tasks": [
+      "Get the data: Hillstrom MineThatData email data, about 64,000 customers. Optional at scale: Criteo uplift. (60 min)",
+      "Use the real dataset: Balance checks, proportion and mean tests, intervals, power, multiple comparisons, bootstrap, simulation. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 3 · Statistics / A-B testing",
+    "tasks": [
+      "Analyse: Randomisation check; visit, conversion, and spend; spend is zero-inflated; segments marked exploratory; peeking simulations. (60 min)",
+      "Use the real dataset: Stopping early; cherry-picked segments; a naive t-test on zero-inflated spend; ignoring cost. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 3 · Statistics / A-B testing",
+    "tasks": [
+      "Model and evaluate: Optional: a two-model uplift approach with a Qini curve. (60 min)",
+      "Use the real dataset: Effect sizes with intervals; false-positive rate in A/A simulations; power calculator checked by simulation. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 3 · Statistics / A-B testing",
+    "tasks": [
+      "Ship a result: A small Streamlit sample-size calculator plus the notebook. (60 min)",
+      "Use the real dataset: An experiment-brief template and a notebook of pitfalls. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 4 · Regression",
+    "tasks": [
+      "Frame the decision: Predict duration at request time and beat a zone-to-zone heuristic. (60 min)",
+      "Use the real dataset: A rider app wants ETA errors small enough to avoid cancellations and refunds. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 4 · Regression",
+    "tasks": [
+      "Get the data: NYC TLC yellow taxi, 3–6 months of Parquet, plus the zone lookup. Optional weather from a free API. (60 min)",
+      "Use the real dataset: Parquet and dtypes; impossible rows; geospatial and time features; time-based validation; error analysis. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 4 · Regression",
+    "tasks": [
+      "Analyse: Zones, hour, weekday, holidays, weather, and rolling zone-pair medians from past data only. trip_distance and drop-off time are leakage. (60 min)",
+      "Use the real dataset: A random split; using drop-off information; absurd durations; RMSE only. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 4 · Regression",
+    "tasks": [
+      "Model and evaluate: Zone-pair median by hour, then Ridge, then LightGBM. Optional quantile models. (60 min)",
+      "Use the real dataset: MAE and WAPE in minutes; train on early months, validate later, test on the latest; errors by hour, borough, and distance. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 7,
+    "phaseName": "Machine learning",
+    "topic": "Project 4 · Regression",
+    "tasks": [
+      "Ship a result: FastAPI plus a small Streamlit demo. (60 min)",
+      "Use the real dataset: Feature-availability table and a leakage audit. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Bagging",
+    "tasks": [
+      "Learn Bagging: Bootstrap and average (60 min)",
+      "Rebuild it yourself: Cuts variance (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Bagging · practice",
+    "tasks": [
+      "Cold start: redo Bagging with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Bagging fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Gradient boosting",
+    "tasks": [
+      "Learn Gradient boosting: Trees fit the negative gradient (60 min)",
+      "Rebuild it yourself: Small learning rate, many trees, early stopping (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Gradient boosting · practice",
+    "tasks": [
+      "Cold start: redo Gradient boosting with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Gradient boosting fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "XGBoost",
+    "tasks": [
+      "Learn XGBoost: Second-order loss (60 min)",
+      "Rebuild it yourself: Leaf penalties (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "XGBoost · practice",
+    "tasks": [
+      "Cold start: redo XGBoost with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when XGBoost fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "LightGBM",
+    "tasks": [
+      "Learn LightGBM: Histograms (60 min)",
+      "Rebuild it yourself: Leaf-wise growth (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "LightGBM · practice",
+    "tasks": [
+      "Cold start: redo LightGBM with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when LightGBM fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "CatBoost",
+    "tasks": [
+      "Learn CatBoost: Ordered target statistics (60 min)",
+      "Rebuild it yourself: High-cardinality categories (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Stacking",
+    "tasks": [
+      "Learn Stacking: Out-of-fold meta-model (60 min)",
+      "Rebuild it yourself: Easy to leak (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Calibration",
+    "tasks": [
+      "Learn Calibration: Ranking is not a probability (60 min)",
+      "Rebuild it yourself: Reliability curve and Brier score (60 min)",
+      "Practice: Before and after reliability curves (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Imbalanced data",
+    "tasks": [
+      "Learn Imbalanced data: PR-AUC first (60 min)",
+      "Rebuild it yourself: Cost threshold (60 min)",
+      "Practice: Compare weights, SMOTE, and threshold tuning (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Explainability",
+    "tasks": [
+      "Learn Explainability: Permutation importance (60 min)",
+      "Rebuild it yourself: PDP and ICE caveats (60 min)",
+      "Practice: SHAP summary plus two limits (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Foundations",
+    "tasks": [
+      "Learn Foundations: Regular frequency (60 min)",
+      "Rebuild it yourself: STL (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Foundations · practice",
+    "tasks": [
+      "Cold start: redo Foundations with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Foundations fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Approaches",
+    "tasks": [
+      "Learn Approaches: Seasonal naive always (60 min)",
+      "Rebuild it yourself: ETS (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Approaches · practice",
+    "tasks": [
+      "Cold start: redo Approaches with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Approaches fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Splits and leakage",
+    "tasks": [
+      "Learn Splits and leakage: No shuffling (60 min)",
+      "Rebuild it yourself: Rolling origin (60 min)",
+      "Practice: apply it on a fresh example, not the one from the lesson (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Splits and leakage · practice",
+    "tasks": [
+      "Cold start: redo Splits and leakage with no notes open (60 min)",
+      "Problem set: three new problems at the same difficulty (60 min)",
+      "Write when Splits and leakage fails and how you would check (60 min)",
+      "Exit check: Explain it aloud for 3 minutes and use it on data you have not seen in a tutorial. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Metrics",
+    "tasks": [
+      "Learn Metrics: WAPE, MASE, bias, pinball loss (60 min)",
+      "Rebuild it yourself: By horizon and segment (60 min)",
+      "Practice: Beat seasonal naive, or report honestly that you did not (60 min)",
+      "Exit check: Gate 7. (60 min)"
+    ],
+    "minutes": 240,
+    "practice": false
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Metrics · practice",
+    "tasks": [
+      "Cold start: redo Metrics with no notes open (60 min)",
+      "Problem set: Beat seasonal naive, or report honestly that you did not (60 min)",
+      "Write when Metrics fails and how you would check (60 min)",
+      "Exit check: Gate 7. Commit the notebook or script (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Project 5 · Classification",
+    "tasks": [
+      "Frame the decision: Predict default probability, choose an approval policy, and explain individual decisions. (60 min)",
+      "Use the real dataset: A lender wants more approvals with controlled losses. Regulators expect explanations. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Project 5 · Classification",
+    "tasks": [
+      "Get the data: Home Credit Default Risk. About 300k applications, roughly 8% default, several related tables. Accept the competition rules. (60 min)",
+      "Use the real dataset: Multi-table aggregates; imbalance; leakage-safe pipelines; calibration; cost thresholds; SHAP; a fairness check. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Project 5 · Classification",
+    "tasks": [
+      "Analyse: History aggregates, credit-to-income ratios, external scores, missing indicators. (60 min)",
+      "Use the real dataset: AUC only; post-application leakage; ignoring reject inference; copying a public kernel. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Project 5 · Classification",
+    "tasks": [
+      "Model and evaluate: A logistic scorecard baseline, then LightGBM or CatBoost. (60 min)",
+      "Use the real dataset: PR-AUC, ROC-AUC or Gini, KS, Brier and a reliability curve; a profit threshold; the lack of dates is a limitation. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Project 5 · Classification",
+    "tasks": [
+      "Ship a result: A scoring API with an explanation endpoint and a model card. (60 min)",
+      "Use the real dataset: Cost assumptions, a policy chart, a model card. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Project 5 · Classification",
+    "tasks": [
+      "Portfolio pass: Relational features, cost thinking, calibration, explainability, fairness. (60 min)",
+      "Use the real dataset: Approval versus expected loss; sensitivity to cost assumptions; a note on reject inference. (60 min)",
+      "Beat a simple baseline and record the metric (60 min)",
+      "Update the README so a stranger can see the decision and one chart (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · SQL drill",
+    "tasks": [
+      "Write 15 queries on a fresh schema: filters, joins, windows, and one business question. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Statistics redo",
+    "tasks": [
+      "Retest sampling, a confidence interval, and a hypothesis test with new numbers and no notes. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Leakage audit",
+    "tasks": [
+      "Open one notebook and mark every column that would not exist at decision time. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Model card",
+    "tasks": [
+      "Write a one-page card: data, metric, baseline, failures, and what you would not automate. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Streamlit demo",
+    "tasks": [
+      "Put one finished chart or model behind a small app a stranger can run with one command. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · README pass",
+    "tasks": [
+      "Clone your own repo into a clean folder and fix whatever blocks a stranger in the first 15 minutes. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Gate retest",
+    "tasks": [
+      "Closed book, timer on, a new problem. If you fail, write the exact skill that broke. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Explain a chart",
+    "tasks": [
+      "Write the sentence a chart supports, and the sentence it does not. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Error analysis",
+    "tasks": [
+      "List 20 wrong or surprising rows, group them, and fix one group. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Interview story",
+    "tasks": [
+      "Tell one project in 5 minutes: decision, data, baseline, metric, and what you would redo. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · SQL drill 2",
+    "tasks": [
+      "Write 15 queries on a fresh schema: filters, joins, windows, and one business question. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Statistics redo 2",
+    "tasks": [
+      "Retest sampling, a confidence interval, and a hypothesis test with new numbers and no notes. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Leakage audit 2",
+    "tasks": [
+      "Open one notebook and mark every column that would not exist at decision time. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Model card 2",
+    "tasks": [
+      "Write a one-page card: data, metric, baseline, failures, and what you would not automate. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Streamlit demo 2",
+    "tasks": [
+      "Put one finished chart or model behind a small app a stranger can run with one command. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · README pass 2",
+    "tasks": [
+      "Clone your own repo into a clean folder and fix whatever blocks a stranger in the first 15 minutes. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Gate retest 2",
+    "tasks": [
+      "Closed book, timer on, a new problem. If you fail, write the exact skill that broke. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Explain a chart 2",
+    "tasks": [
+      "Write the sentence a chart supports, and the sentence it does not. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Error analysis 2",
+    "tasks": [
+      "List 20 wrong or surprising rows, group them, and fix one group. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  },
+  {
+    "phase": 8,
+    "phaseName": "Advanced ML",
+    "topic": "Portfolio · Interview story 2",
+    "tasks": [
+      "Tell one project in 5 minutes: decision, data, baseline, metric, and what you would redo. (60 min)",
+      "Work only in your project repos. No new course (60 min)",
+      "Write what changed and what is still weak (60 min)",
+      "Stop at 4 hours. Commit and push (60 min)"
+    ],
+    "minutes": 240,
+    "practice": true
+  }
+]
