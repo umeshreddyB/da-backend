@@ -59,7 +59,7 @@ Import `render.yaml` via Render **Blueprints** for the same setup. You still mus
 2. Framework: **Vite** · Output: `dist`
 3. Environment variable:
    ```
-   VITE_API_URL=https://system-design-todobackend-1.onrender.com
+   VITE_API_URL=https://da-backend-1-zvvu.onrender.com
    ```
    No trailing slash.
 4. Redeploy frontend after setting the variable.
